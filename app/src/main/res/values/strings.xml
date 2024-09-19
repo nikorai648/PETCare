@@ -2,8 +2,8 @@
     <string name="app_name">PETCare</string>
     <string name="titleinicio">PETCare</string>
     <string name="select_usertype">Seleccionar el tipo de usuario en la aplicación</string>
-    <string name="employee">Empleado</string>
-    <string name="client">Cliente</string>
+    <string name="btnemployee">Empleado</string>
+    <string name="btnclient">Cliente</string>
     <!-- Datos del cliente  -->
     <string name="clientetitle">Datos Usuario Cliente</string>
     <string name="nombrecliente">Nombre</string>
@@ -13,5 +13,8 @@
     <string name="contrasenacliente">Contraseña</string>
     <string name="confirmacioncontrasena_cliente">Confirmar Contraseña</string>
     <string name="nombremascotas">Nombre mascotas </string>
+    <string name="btnconfirmacion">OK</string>
+    <string name="ok">OK</string>
+
 
 </resources>

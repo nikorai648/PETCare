@@ -43,7 +43,7 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="text"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:text=" Ingresar Nombre" />
 
     <TextView
@@ -57,11 +57,11 @@
         android:id="@+id/editTextText4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="text"
-        android:layout_marginTop="10dp"
-        android:textSize="15dp"
-        android:text=" Ingresar Apellido" />
+        android:text=" Ingresar Apellido"
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/textView13"
@@ -76,8 +76,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:textSize="15dp"
-        android:inputType="phone" />
+        android:inputType="phone"
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/textView14"
@@ -93,8 +93,8 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="text"
-        android:textSize="15dp"
-        android:text=" Ingresar RUT" />
+        android:text="Ingresar RUT"
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/textView15"
@@ -107,10 +107,10 @@
         android:id="@+id/editTextTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
         android:layout_marginTop="10dp"
-        android:textSize="15dp"
-        android:inputType="textPassword" />
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/textView16"
@@ -125,6 +125,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:layout_marginTop="10dp"
+        android:textSize="15sp"
         android:inputType="textPassword" />
 
     <TextView
@@ -142,7 +143,7 @@
         android:ems="10"
         android:inputType="text"
         android:text="Ingresar los nombres de las mascotas"
-        android:textSize="15dp" />
+        android:textSize="15sp" />
 
     <Button
         android:id="@+id/button"
@@ -150,7 +151,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
-        android:text="OK" />
+        android:text="@string/ok" />
 </LinearLayout>
 
 
