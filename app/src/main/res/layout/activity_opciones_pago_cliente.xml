@@ -6,42 +6,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ClienteMenuActivity">
+    tools:context=".OpcionesPagoClienteActivity">
 
     <TextView
-        android:id="@+id/textView22"
+        android:id="@+id/textView24"
         android:layout_width="87dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
-        android:text="PETCare" />
+        android:text=" PETCare" />
 
     <TextView
-        android:id="@+id/textView23"
-        android:layout_width="wrap_content"
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="120dp"
-        android:text=" Opciones de aplicación para Clientes" />
+        android:text="Opciones de pago cliente" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/button10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
-        android:text="Solicitar horario de atención" />
+        android:text=" Mastercard" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/button11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
-        android:text="Revisar fecha y horario de atención" />
+        android:text="BancoEstado" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/button12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
-        android:text="Ordenar Producto" />
+        android:text=" Otros" />
 </LinearLayout>

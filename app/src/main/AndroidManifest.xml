@@ -13,6 +13,10 @@
         android:theme="@style/Theme.PETCare"
         tools:targetApi="31">
         <activity
+            android:name=".OpcionesPagoClienteActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PETCare" />
+        <activity
             android:name=".ClienteMenuActivity"
             android:exported="false" />
         <activity
@@ -40,10 +44,6 @@
             android:theme="@style/Theme.PETCare" />
         <activity
             android:name=".RegistroClientesActivity"
-            android:exported="false"
-            android:theme="@style/Theme.PETCare" />
-        <activity
-            android:name=".OpcionesPagoClienteActivity"
             android:exported="false"
             android:theme="@style/Theme.PETCare" />
         <activity
