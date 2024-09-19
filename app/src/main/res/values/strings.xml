@@ -11,10 +11,7 @@
     <string name="telefonocliente">Teléfono</string>
     <string name="rutcliente">RUT</string>
     <string name="contrasenacliente">Contraseña</string>
-    <string name="confirmacioncontrasena_cliente">Confirmar Contraseña</string>
+    <string name="confirmacioncontrasenacliente">Confirmar Contraseña</string>
     <string name="nombremascotas">Nombre mascotas </string>
     <string name="btnconfirmacion">OK</string>
-    <string name="ok">OK</string>
-
-
 </resources>
