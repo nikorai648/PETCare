@@ -6,102 +6,109 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".OpcionOrdenarVeterinariaActivity">
+    tools:context=".OpcionModificarVeterinariaActivity">
 
     <TextView
-        android:id="@+id/textView54"
+        android:id="@+id/textView67"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="PETCare" />
 
     <TextView
-        android:id="@+id/textView55"
+        android:id="@+id/textView68"
         android:layout_width="171dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
-        android:text="Opción ordenar producto" />
+        android:text=" Opción Modificar producto" />
 
     <TextView
-        android:id="@+id/textView56"
-        android:layout_width="match_parent"
+        android:id="@+id/textView69"
+        android:layout_width="178dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Producto a ordenar:" />
+        android:text=" Ingresar nombre producto:" />
 
     <EditText
-        android:id="@+id/editTextText12"
+        android:id="@+id/editTextText23"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
-        android:layout_marginEnd="32dp"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar nombre Producto" />
+        android:text=" Ingresar el nombre del producto aquí" />
 
     <TextView
-        android:id="@+id/textView57"
-        android:layout_width="match_parent"
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar tipo de producto(comida, etc):" />
+        android:text="Ingresar descripción del producto:" />
 
     <EditText
-        android:id="@+id/editTextText15"
+        android:id="@+id/editTextText24"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
-        android:layout_marginEnd="32dp"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar tipo de producto aquí" />
+        android:text=" Ingresar la descripción del producto aquí" />
 
     <TextView
-        android:id="@+id/textView58"
-        android:layout_width="match_parent"
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar email cliente aquí:" />
+        android:text="Ingresar tipo de producto:" />
 
     <EditText
-        android:id="@+id/editTextText16"
+        android:id="@+id/editTextText25"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
-        android:layout_marginEnd="32dp"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar e-mail aquí" />
+        android:text=" Ingresar el tipo del producto aquí:" />
 
     <TextView
-        android:id="@+id/textView59"
-        android:layout_width="match_parent"
-        android:layout_marginEnd="32dp"
-        android:layout_marginTop="20dp"
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Ingresar si se ira a buscar a veterinaria o se enviara a domicilio:" />
+        android:layout_marginTop="20dp"
+        android:text="Ingresar precio del producto:" />
 
     <EditText
-        android:id="@+id/editTextText17"
+        android:id="@+id/editTextText26"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
-        android:layout_marginEnd="32dp"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar forma de entrega a producto" />
+        android:text=" Ingresar el precio del producto aquí" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" Ingresar la cantidad de  producto que se deben modificar:" />
+
+    <EditText
+        android:id="@+id/editTextText27"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:text="Ingresar la cantidad de producto modificados aqui" />
 
     <Button
-        android:id="@+id/button25"
-        android:layout_width="111dp"
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginEnd="32dp"
-        android:text="OK" />
-
+        android:text="Actualizar" />
 </LinearLayout>

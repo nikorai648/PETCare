@@ -13,6 +13,19 @@
         android:theme="@style/Theme.PETCare"
         tools:targetApi="31">
         <activity
+            android:name=".ConfirmacionEliminacionProductoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PETCare" />
+        <activity
+            android:name=".OpcionEliminarVeterinariaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OpcionModificarVeterinariaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OpcionAgregarVeterinariaActivity"
+            android:exported="false" />
+        <activity
             android:name=".OpcionOrdenarVeterinariaActivity"
             android:exported="false" />
         <activity
