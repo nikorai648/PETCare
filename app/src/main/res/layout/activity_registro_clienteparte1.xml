@@ -6,42 +6,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".OpcionesPagoClienteActivity">
+    tools:context=".RegistroClienteparte1Activity">
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/textView26"
         android:layout_width="87dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
-        android:text=" PETCare" />
+        android:text="PETCare" />
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/textView27"
         android:layout_width="169dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="120dp"
-        android:text="Opciones de pago cliente" />
+        android:text="Registro de Clientes" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/button13"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
-        android:text=" Mastercard" />
+        android:text="Cliente1" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/button14"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
-        android:text="BancoEstado" />
+        android:text="Cliente2" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/button15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
-        android:text=" Otros" />
+        android:text="Cliente3" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Cliente4" />
 </LinearLayout>
