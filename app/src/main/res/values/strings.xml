@@ -30,12 +30,12 @@
     <string name="btn_confirm">OK</string>
 
     <!-- Datos para la VeterinarioMenuActivity -->
-    <string name="vetcare_title">PETCare</string>
-    <string name="vetcare_options">Opciones de Aplicación para Veterinarios</string>
-    <string name="btn_registro_clientes">Ver Registro de Clientes</string>
-    <string name="btn_estado_mascotas">Estados Actuales de Mascotas</string>
-    <string name="btn_inventario_veterinaria">Ver Inventario de Veterinaria</string>
-    <string name="btn_llamado_clientes">Llamado para Clientes</string>
+    <string name="PETCare_title">PETCare</string>
+    <string name="PETCare_options">Opciones de Aplicación para Veterinarios</string>
+    <string name="btn_record_clients">Ver Registro de Clientes</string>
+    <string name="btn_state_pets">Estados Actuales de Mascotas</string>
+    <string name="btn_inventory_vet">Ver Inventario de Veterinaria</string>
+    <string name="btn_call_clients">Llamado para Clientes</string>
 
 
 

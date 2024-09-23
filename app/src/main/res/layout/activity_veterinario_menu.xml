@@ -16,7 +16,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="60dp"
         android:textColor="@color/white"
-        android:text="PETCare" />
+        android:text="@string/PETCare_title" />
 
     <TextView
         android:id="@+id/textView21"
@@ -25,7 +25,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="120dp"
         android:textColor="@color/white"
-        android:text=" Opciones  de Aplicación para Veterinarios" />
+        android:text="@string/PETCare_options" />
 
     <Button
         android:id="@+id/button3"
@@ -35,7 +35,7 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text=" Ver Registro de Clientes" />
+        android:text="@string/btn_record_clients" />
 
     <Button
         android:id="@+id/button4"
@@ -45,7 +45,7 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text=" Estados Actuales de mascotas" />
+        android:text="@string/btn_state_pets" />
 
     <Button
         android:id="@+id/button5"
@@ -55,7 +55,7 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text=" Ver Inventario de Veterinaria" />
+        android:text="@string/btn_inventory_vet" />
 
     <Button
         android:id="@+id/button6"
@@ -64,5 +64,5 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text=" Llamado para Clientes" />
+        android:text="@string/btn_call_clients" />
 </LinearLayout>
