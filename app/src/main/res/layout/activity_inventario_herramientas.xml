@@ -33,5 +33,146 @@
         android:layout_height="wrap_content"
         android:stretchColumns="1">
 
+        <!-- Fila 1: Herramientas -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Herramienta"
+                android:textStyle="bold"
+                android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Herramienta1" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Herramienta2" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Herramienta3" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Herramienta4" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Herramienta5" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Herramienta6" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Herramienta7" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Herramienta8" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Herramienta9" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Herramienta10" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Herramienta11" android:gravity="center" />
+        </TableRow>
+
+        <!-- Fila 2: Cantidad de Herramientas -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Cantidad"
+                android:textStyle="bold"
+                android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="5" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="5" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="5" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="5" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="5" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="5" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="5" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="5" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="5" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="5" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="5" android:gravity="center" />
+        </TableRow>
+
+        <!-- Fila 3: Estado de Herramientas -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Estado"
+                android:textStyle="bold"
+                android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+        </TableRow>
     </TableLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <!-- Contenedor de los botones (Eliminar, Modificar, Agregar) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <!-- Botón Eliminar -->
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/white"
+            android:layout_marginEnd="40dp"
+            android:text="Eliminar" />
+
+        <!-- Botón Modificar -->
+        <Button
+            android:id="@+id/btnModificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/blue"
+            android:backgroundTint="@color/white"
+            android:layout_marginEnd="40dp"
+            android:text="Modificar" />
+
+        <!-- Botón Agregar -->
+        <Button
+            android:id="@+id/btnAgregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/white"
+            android:text="Agregar" />
+    </LinearLayout>
 </LinearLayout>

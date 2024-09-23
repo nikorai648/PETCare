@@ -34,5 +34,105 @@
         android:layout_height="wrap_content"
         android:stretchColumns="1">
 
+        <!-- Fila 1: Otros Productos -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Otros Productos"
+                android:textStyle="bold"
+                android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Camas" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Juguetes" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Correas" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Jaulas" android:gravity="center" />
+        </TableRow>
+
+        <!-- Fila 2: Cantidad de Productos -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Cantidad"
+                android:textStyle="bold"
+                android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="5" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="5" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="5" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="5" android:gravity="center" />
+        </TableRow>
+
+        <!-- Fila 3: Estado de Productos -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Estado"
+                android:textStyle="bold"
+                android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+        </TableRow>
     </TableLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <!-- Contenedor de los botones (Eliminar, Modificar, Agregar) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <!-- Botón Eliminar -->
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/white"
+            android:layout_marginEnd="40dp"
+            android:text="Eliminar" />
+
+        <!-- Botón Modificar -->
+        <Button
+            android:id="@+id/btnModificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/blue"
+            android:backgroundTint="@color/white"
+            android:layout_marginEnd="40dp"
+            android:text="Modificar" />
+
+        <!-- Botón Agregar -->
+        <Button
+            android:id="@+id/btnAgregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/white"
+            android:text="Agregar" />
+    </LinearLayout>
 </LinearLayout>

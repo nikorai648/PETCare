@@ -283,7 +283,7 @@
     <!-- Espacio entre la tabla y los botones -->
     <Space
         android:layout_width="match_parent"
-        android:layout_height="16dp" />
+        android:layout_height="48dp" />
 
     <!-- Contenedor de los botones (Eliminar, Modificar, Agregar) -->
     <LinearLayout
