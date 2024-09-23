@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:paddingBottom="20dp"
+        android:textColor="@color/white"
         android:text=" PETCare" />
 
     <TextView
@@ -23,12 +24,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text="Selección de atención hora a cliente" />
 
     <TextView
         android:id="@+id/textView46"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="Ingresar Nombre cliente:" />
 
     <EditText
@@ -46,6 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text="Ingresar apellido cliente:" />
 
     <EditText
@@ -62,6 +66,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text=" Ingresar e-mail:" />
 
     <EditText
@@ -77,6 +82,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text=" Ingresar RUT:" />
 
     <EditText
@@ -93,6 +99,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text="Ingresar nombre(s) mascota(s):" />
 
     <EditText
@@ -110,6 +117,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:text="OK" />
 
 </LinearLayout>

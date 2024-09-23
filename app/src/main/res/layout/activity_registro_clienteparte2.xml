@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
+        android:textColor="@color/white"
         android:text="PETCare" />
 
     <TextView
@@ -23,6 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="40dp"
+        android:textColor="@color/white"
         android:text="Registro cliente1" />
 
     <TextView
@@ -30,6 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:textColor="@color/white"
         android:text=" Nombre(s) de Mascota(s) cliente 1" />
 
     <TextView
@@ -37,12 +40,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:textColor="@color/white"
         android:text="Raza(s) de mascota(s) cliente1" />
 
     <TextView
         android:id="@+id/textView34"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:layout_marginTop="40dp"
         android:text="Edad(s) mascota(s) cliente1" />
 
@@ -51,6 +56,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:textColor="@color/white"
         android:text="Tratamiento(s) actual de mascota(s)de cliente 1:"
  />
 
@@ -68,6 +74,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:textColor="@color/white"
         android:text=" Estado(s) actual de mascota(s) cliente 1:" />
 
     <EditText

@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
+        android:textColor="@color/white"
         android:text=" PETCare" />
 
     <TextView
@@ -23,26 +24,36 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="120dp"
+        android:textColor="@color/white"
         android:text="Opciones de pago cliente" />
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:text=" Mastercard" />
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:text="BancoEstado" />
 
     <Button
         android:id="@+id/button12"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:text=" Otros" />
 </LinearLayout>
