@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">PETCare</string>
     <string name="select_usertype">Seleccionar el tipo de usuario en la aplicación</string>
-    <string name="btnemployee">Empleado</string>
-    <string name="btnclient">Cliente</string>
+    <string name="btn_employee">Empleado</string>
+    <string name="btn_client">Cliente</string>
 
     <!-- Datos del cliente   -->
     <string name="clientetitle">Datos Usuario Cliente</string>
@@ -16,18 +16,18 @@
     <string name="btnconfirmacion">OK</string>
 
     <!-- Datos del Empleado -->
-    <string name="empleado_title">PETCare</string>
-    <string name="empleado_info">Datos usuario tipo Empleado</string>
-    <string name="empleado_nombre">Nombre:</string>
-    <string name="empleado_ingresar_nombre">Ingresar Nombre</string>
-    <string name="empleado_apellido">Apellido:</string>
-    <string name="empleado_ingresar_apellido">Ingresar Apellido</string>
-    <string name="empleado_telefono">Teléfono:</string>
-    <string name="empleado_rut">RUT:</string>
-    <string name="empleado_ingresar_rut">Ingresar RUT</string>
-    <string name="empleado_contrasena">Contraseña:</string>
-    <string name="empleado_confirmar_contrasena">Confirmar Contraseña:</string>
-    <string name="btn_confirmar">OK</string>
+    <string name="employee_title">PETCare</string>
+    <string name="employee_info">Datos usuario tipo Empleado</string>
+    <string name="employee_name">Nombre:</string>
+    <string name="employee_enter_name">Ingresar Nombre</string>
+    <string name="employee_lastname">Apellido:</string>
+    <string name="employee_enter_lastname">Ingresar Apellido</string>
+    <string name="employee_phone">Teléfono:</string>
+    <string name="employee_rut">RUT:</string>
+    <string name="employee_enter_rut">Ingresar RUT</string>
+    <string name="employee_password">Contraseña:</string>
+    <string name="employee_confirm_password">Confirmar Contraseña:</string>
+    <string name="btn_confirm">OK</string>
 
     <!-- Datos para la VeterinarioMenuActivity -->
     <string name="vetcare_title">PETCare</string>

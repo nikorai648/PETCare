@@ -39,7 +39,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="120dp"
         android:padding="10dp"
-        android:text="@string/btnemployee"
+        android:text="@string/btn_employee"
         android:textColor="@color/black"
         android:backgroundTint="@color/white"
         android:textSize="18sp" />
@@ -51,7 +51,7 @@
         android:layout_marginTop="40dp"
         android:padding="10dp"
         android:layout_gravity="center_horizontal"
-        android:text="@string/btnclient"
+        android:text="@string/btn_client"
         android:textColor="@color/black"
         android:backgroundTint="@color/white"
         android:textSize="18sp" />

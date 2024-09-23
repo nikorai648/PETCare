@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:paddingBottom="20dp"
-        android:text="PETCare"
+        android:text="@string/employee_title"
         android:textSize="24sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="120dp"
@@ -32,7 +32,7 @@
         android:layout_marginEnd="32dp"
         android:paddingBottom="10dp"
         android:textColor="@color/white"
-        android:text="Datos usuario tipo Empleado" />
+        android:text="@string/employee_info" />
 
     <TextView
         android:id="@+id/textView5"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textColor="@color/white"
-        android:text="Nombre:" />
+        android:text="@string/employee_name" />
 
     <EditText
         android:id="@+id/editTextText2"
@@ -49,7 +49,7 @@
         android:ems="10"
         android:inputType="text"
         android:textSize="15sp"
-        android:text="Ingresar Nombre" />
+        android:text="@string/employee_enter_name" />
 
     <TextView
         android:id="@+id/textView6"
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:textSize="15sp"
         android:textColor="@color/white"
-        android:text="Apellido:" />
+        android:text="@string/employee_lastname" />
 
     <EditText
         android:id="@+id/editTextText7"
@@ -67,7 +67,7 @@
         android:inputType="text"
         android:layout_marginTop="10dp"
         android:textSize="15sp"
-        android:text="Ingresar Apellido" />
+        android:text="@string/employee_enter_lastname" />
 
     <TextView
         android:id="@+id/textView7"
@@ -75,7 +75,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textColor="@color/white"
-        android:text="Telefono:" />
+        android:text="@string/employee_phone" />
 
     <EditText
         android:id="@+id/editTextPhone2"
@@ -92,7 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textColor="@color/white"
-        android:text="RUT:" />
+        android:text="@string/employee_rut" />
 
     <EditText
         android:id="@+id/editTextText9"
@@ -102,7 +102,7 @@
         android:inputType="text"
         android:layout_marginTop="10dp"
         android:textSize="15sp"
-        android:text="Ingresar RUT" />
+        android:text="@string/employee_enter_rut" />
 
     <TextView
         android:id="@+id/textView18"
@@ -110,7 +110,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textColor="@color/white"
-        android:text="Contraseña:" />
+        android:text="@string/employee_password" />
 
     <EditText
         android:id="@+id/editTextTextPassword3"
@@ -127,7 +127,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textColor="@color/white"
-        android:text="Confirmar Cotraseña:" />
+        android:text="@string/employee_confirm_password" />
 
     <EditText
         android:id="@+id/editTextTextPassword4"
@@ -145,6 +145,6 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="OK" />
+        android:text="@string/btn_confirm" />
 
 </LinearLayout>
