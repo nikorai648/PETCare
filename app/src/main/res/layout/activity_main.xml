@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingBottom="20dp"
-        android:text="PETCare"
+        android:text="@string/app_name"
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -28,7 +28,7 @@
         android:layout_marginTop="196dp"
         android:layout_marginEnd="32dp"
         android:paddingBottom="20dp"
-        android:text="Seleccionar el tipo de usuario en la aplicación "
+        android:text="@string/select_usertype"
         android:textColor="@color/white"
         android:textSize="18sp" />
 
@@ -39,7 +39,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="120dp"
         android:padding="10dp"
-        android:text="Empleado"
+        android:text="@string/btnemployee"
         android:textColor="@color/black"
         android:backgroundTint="@color/white"
         android:textSize="18sp" />
@@ -51,7 +51,7 @@
         android:layout_marginTop="40dp"
         android:padding="10dp"
         android:layout_gravity="center_horizontal"
-        android:text="Cliente"
+        android:text="@string/btnclient"
         android:textColor="@color/black"
         android:backgroundTint="@color/white"
         android:textSize="18sp" />

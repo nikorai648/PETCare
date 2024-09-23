@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">PETCare</string>
-    <string name="titleinicio">PETCare</string>
     <string name="select_usertype">Seleccionar el tipo de usuario en la aplicación</string>
     <string name="btnemployee">Empleado</string>
     <string name="btnclient">Cliente</string>
