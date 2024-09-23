@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
-        android:text="PETCare" />
+        android:text="PETCare"/>
 
     <TextView
         android:id="@+id/textView38"

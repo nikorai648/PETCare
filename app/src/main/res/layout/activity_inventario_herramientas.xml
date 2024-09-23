@@ -7,4 +7,29 @@
     android:layout_height="match_parent"
     android:background="#4CAF50"
     android:orientation="vertical"
-    tools:context=".InventarioHerramientasActivity" />
+    tools:context=".InventarioHerramientasActivity" >
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="80dp"
+        android:text="PETCare" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:text="Inventario Herramientas" />
+
+    <!-- Tabla de Inventario de Herramientas -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+    </TableLayout>
+</LinearLayout>
