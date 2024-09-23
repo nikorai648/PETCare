@@ -4,6 +4,7 @@
     <string name="select_usertype">Seleccionar el tipo de usuario en la aplicación</string>
     <string name="btnemployee">Empleado</string>
     <string name="btnclient">Cliente</string>
+
     <!-- Datos del cliente  -->
     <string name="clientetitle">Datos Usuario Cliente</string>
     <string name="nombrecliente">Nombre</string>
@@ -14,7 +15,29 @@
     <string name="confirmacioncontrasenacliente">Confirmar Contraseña</string>
     <string name="nombremascotas">Nombre mascotas </string>
     <string name="btnconfirmacion">OK</string>
-    <!-- Strings used for fragments for navigation -->
+
+    <!-- Datos del Empleado -->
+    <string name="empleado_title">PETCare</string>
+    <string name="empleado_info">Datos usuario tipo Empleado</string>
+    <string name="empleado_nombre">Nombre:</string>
+    <string name="empleado_ingresar_nombre">Ingresar Nombre</string>
+    <string name="empleado_apellido">Apellido:</string>
+    <string name="empleado_ingresar_apellido">Ingresar Apellido</string>
+    <string name="empleado_telefono">Teléfono:</string>
+    <string name="empleado_rut">RUT:</string>
+    <string name="empleado_ingresar_rut">Ingresar RUT</string>
+    <string name="empleado_contrasena">Contraseña:</string>
+    <string name="empleado_confirmar_contrasena">Confirmar Contraseña:</string>
+    <string name="btn_confirmar">OK</string>
+
+    <!-- Datos para la VeterinarioMenuActivity -->
+    <string name="vetcare_title">PETCare</string>
+    <string name="vetcare_options">Opciones de Aplicación para Veterinarios</string>
+    <string name="btn_registro_clientes">Ver Registro de Clientes</string>
+    <string name="btn_estado_mascotas">Estados Actuales de Mascotas</string>
+    <string name="btn_inventario_veterinaria">Ver Inventario de Veterinaria</string>
+    <string name="btn_llamado_clientes">Llamado para Clientes</string>
+
 
 
 </resources>
