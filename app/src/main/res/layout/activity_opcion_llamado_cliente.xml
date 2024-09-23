@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
+        android:textColor="@color/white"
         android:text=" PETCare" />
 
     <TextView
@@ -23,6 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="100dp"
+        android:textColor="@color/white"
         android:text=" Opción llamado a Clientes" />
 
     <TextView
@@ -30,6 +32,7 @@
         android:layout_width="69dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
+        android:textColor="@color/white"
         android:text="Cliente 1:" />
 
     <Button
@@ -37,6 +40,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:text="Llamar a cliente 1" />
 
     <TextView
@@ -44,6 +49,7 @@
         android:layout_width="69dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
+        android:textColor="@color/white"
         android:text="Cliente 2:" />
 
     <Button
@@ -51,6 +57,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:text="Llamar a cliente 2" />
 
     <TextView
@@ -58,11 +66,14 @@
         android:layout_width="72dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
+        android:textColor="@color/white"
         android:text=" Cliente 3:" />
 
     <Button
         android:id="@+id/button23"
         android:layout_width="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:layout_height="wrap_content"
         android:text=" Llamar a cliente 3" />
 

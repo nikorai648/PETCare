@@ -14,6 +14,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
         android:text="PETCare" />
 
     <TextView
@@ -23,6 +24,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
+        android:textColor="@color/white"
         android:text=" Opción Modificar producto" />
 
     <TextView
@@ -30,6 +32,7 @@
         android:layout_width="178dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text=" Ingresar nombre producto:" />
 
     <EditText
@@ -46,6 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text="Ingresar descripción del producto:" />
 
     <EditText
@@ -62,6 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text="Ingresar tipo de producto:" />
 
     <EditText
@@ -78,6 +83,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text="Ingresar precio del producto:" />
 
     <EditText
@@ -94,6 +100,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text=" Ingresar la cantidad de  producto que se deben modificar:" />
 
     <EditText
@@ -111,5 +118,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:text="Actualizar" />
 </LinearLayout>

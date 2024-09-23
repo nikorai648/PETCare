@@ -14,6 +14,7 @@
         android:layout_width="87dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
         android:layout_marginBottom="80dp"
         android:text="PETCare" />
 
@@ -23,6 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="30dp"
+        android:textColor="@color/white"
         android:text="Inventario Otros Productos" />
 
     <!-- Tabla de Inventario de Otros Productos -->

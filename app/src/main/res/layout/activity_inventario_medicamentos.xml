@@ -5,8 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#4CAF50"
+    android:orientation="vertical"
     tools:context=".InventarioMedicamentosActivity">
 
     <TextView
@@ -15,7 +15,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
-        android:text="PETCare"/>
+        android:textColor="@color/white"
+        android:text="PETCare" />
 
     <TextView
         android:id="@+id/textView38"
@@ -23,143 +24,304 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="30dp"
+        android:textColor="@color/white"
         android:text="Inventario Medicamentos" />
 
     <!-- Tabla de Inventario de Medicamentos -->
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:stretchColumns="1">
 
         <!-- Fila 1: Medicamentos -->
-        <TableRow>
+        <TableRow android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:padding="8dp"
                 android:text="Medicamentos"
-                android:textStyle="bold"
-                android:gravity="center"/>
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Medicamento1" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Medicamento2" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Medicamento3" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Medicamento4" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Medicamento5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Medicamento6" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Medicamento7" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Medicamento8" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Medicamento9" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Medicamento10" android:gravity="center" />
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Medicamento1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Medicamento2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Medicamento3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Medicamento4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Medicamento5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Medicamento6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Medicamento7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Medicamento8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Medicamento9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Medicamento10" />
         </TableRow>
 
         <!-- Fila 2: Cantidad de Medicamentos -->
-        <TableRow>
+        <TableRow android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:padding="8dp"
                 android:text="Cantidad"
-                android:textStyle="bold"
-                android:gravity="center"/>
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="5" />
         </TableRow>
 
         <!-- Fila 3: Estado de Medicamentos -->
-        <TableRow>
+        <TableRow android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:padding="8dp"
                 android:text="Estado"
-                android:textStyle="bold"
-                android:gravity="center"/>
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Buen Estado" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Buen Estado" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Buen Estado" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Buen Estado" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Buen Estado" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Buen Estado" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Buen Estado" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Buen Estado" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Buen Estado" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Buen Estado" />
         </TableRow>
     </TableLayout>
     <!-- Espacio entre la tabla y los botones -->
     <Space
         android:layout_width="match_parent"
-        android:layout_height="21dp" />
+        android:layout_height="16dp" />
 
     <!-- Contenedor de los botones (Eliminar, Modificar, Agregar) -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
 
         <!-- Botón Eliminar -->
         <Button
             android:id="@+id/btnEliminar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Eliminar"
             android:layout_gravity="center"
-            android:layout_marginEnd="40dp" />
+            android:textColor="@color/red"
+            android:backgroundTint="@color/white"
+            android:layout_marginEnd="40dp"
+            android:text="Eliminar" />
 
         <!-- Botón Modificar -->
         <Button
             android:id="@+id/btnModificar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Modificar"
             android:layout_gravity="center"
-            android:layout_marginEnd="40dp" />
+            android:textColor="@color/blue"
+            android:backgroundTint="@color/white"
+            android:layout_marginEnd="40dp"
+            android:text="Modificar" />
 
         <!-- Botón Agregar -->
         <Button
             android:id="@+id/btnAgregar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Agregar"
-            android:layout_gravity="center" />
+            android:layout_gravity="center"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/white"
+            android:text="Agregar" />
     </LinearLayout>
 </LinearLayout>

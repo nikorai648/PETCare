@@ -14,6 +14,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
         android:text="  PETCare" />
 
     <TextView
@@ -23,6 +24,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
+        android:textColor="@color/white"
         android:text="Opción Agregar producto" />
 
     <TextView
@@ -30,6 +32,7 @@
         android:layout_width="178dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text="Ingresar nombre producto:" />
 
     <EditText
@@ -46,6 +49,7 @@
         android:layout_width="219dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text="Ingrese descripción del producto:" />
 
     <EditText
@@ -62,6 +66,7 @@
         android:layout_width="174dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text="Ingresar tipo de producto:" />
 
     <EditText
@@ -77,6 +82,7 @@
         android:id="@+id/textView65"
         android:layout_width="192dp"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="Ingresar precio del producto:" />
 
     <EditText
@@ -93,6 +99,7 @@
         android:layout_width="289dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text=" Ingresar  cantidad de producto que agregar:" />
 
     <EditText
@@ -110,5 +117,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:text="Guardar" />
 </LinearLayout>

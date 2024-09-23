@@ -17,6 +17,7 @@
         android:text="PETCare"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="@color/white"
         tools:layout_editor_absoluteX="120dp"
         tools:layout_editor_absoluteY="2dp " />
 
@@ -28,6 +29,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="32dp"
         android:paddingBottom="10dp"
+        android:textColor="@color/white"
         android:text="Datos usuario tipo cliente" />
 
     <TextView
@@ -35,6 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:textColor="@color/white"
         android:text="Nombre" />
 
     <EditText
@@ -45,6 +48,8 @@
         android:ems="10"
         android:inputType="text"
         android:textSize="15sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
         android:text=" Ingresar Nombre" />
 
     <TextView
@@ -52,6 +57,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:textColor="@color/white"
         android:text="Apellido" />
 
     <EditText
@@ -61,6 +67,8 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="text"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:text=" Ingresar Apellido"
         android:textSize="15sp" />
 
@@ -69,6 +77,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:textColor="@color/white"
         android:text="Teléfono" />
 
     <EditText
@@ -78,6 +87,8 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="phone"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:textSize="15sp" />
 
     <TextView
@@ -85,6 +96,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:textColor="@color/white"
         android:text="RUT" />
 
     <EditText
@@ -95,6 +107,8 @@
         android:ems="10"
         android:inputType="text"
         android:text="Ingresar RUT"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
         android:textSize="15sp" />
 
     <TextView
@@ -102,6 +116,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:textColor="@color/white"
         android:text="Contraseña" />
 
     <EditText
@@ -111,6 +126,8 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:textSize="15sp" />
 
     <TextView
@@ -118,6 +135,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:textColor="@color/white"
         android:text="Confirmar Contraseña" />
 
     <EditText
@@ -126,6 +144,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:textSize="15sp"
         android:inputType="textPassword" />
 
@@ -134,6 +154,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:textColor="@color/white"
         android:text="@string/nombremascotas" />
 
     <EditText
@@ -142,6 +163,8 @@
         android:layout_height="47dp"
         android:layout_marginTop="10dp"
         android:ems="10"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:inputType="text"
         android:text="Ingresar los nombres de las mascotas"
         android:textSize="15sp" />
@@ -152,6 +175,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:text="OK" />
 </LinearLayout>
 

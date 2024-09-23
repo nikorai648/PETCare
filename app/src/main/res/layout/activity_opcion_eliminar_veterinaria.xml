@@ -14,6 +14,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
         android:text="PETCare" />
 
     <TextView
@@ -23,6 +24,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
+        android:textColor="@color/white"
         android:text=" Opción Eliminar producto" />
 
     <TextView
@@ -30,6 +32,7 @@
         android:layout_width="178dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text=" Ingresar nombre producto:" />
 
     <EditText
@@ -46,6 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text="Ingresar descripción de producto:" />
 
     <EditText
@@ -62,6 +66,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text=" Ingresar tipo producto:" />
 
     <EditText
@@ -78,6 +83,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text="Ingresar precio producto:" />
 
     <EditText
@@ -94,6 +100,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text=" Ingresar cantidad de producto a eliminar:" />
 
     <EditText
@@ -110,6 +117,8 @@
         android:layout_width="116dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
         android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
         android:text="Eliminar" />
 </LinearLayout>

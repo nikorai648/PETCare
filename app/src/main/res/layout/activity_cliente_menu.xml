@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
+        android:textColor="@color/white"
         android:text="PETCare" />
 
     <TextView
@@ -23,26 +24,36 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="120dp"
+        android:textColor="@color/white"
         android:text=" Opciones de aplicación para Clientes" />
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
-        android:text="Solicitar horario de atención" />
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:text="Solicitar horario de atención"
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
-        android:text="Revisar fecha y horario de atención" />
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:text="Revisar fecha y horario de atención"
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="match_parent"
+        android:layout_width="173dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
-        android:text="Ordenar Producto" />
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:text="Ordenar Producto"
+        android:textColor="@color/black" />
 </LinearLayout>
