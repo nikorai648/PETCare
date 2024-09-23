@@ -4,7 +4,7 @@
     <string name="btnemployee">Empleado</string>
     <string name="btnclient">Cliente</string>
 
-    <!-- Datos del cliente  -->
+    <!-- Datos del cliente   -->
     <string name="clientetitle">Datos Usuario Cliente</string>
     <string name="nombrecliente">Nombre</string>
     <string name="apellidocliente">Apellido</string>
