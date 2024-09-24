@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -15,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textColor="@color/white"
-        android:text="PETCare" />
+        android:text="@string/order_product_title" />
 
     <TextView
         android:id="@+id/textView55"
@@ -25,7 +24,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
         android:textColor="@color/white"
-        android:text="Opción ordenar producto" />
+        android:text="@string/order_product_subtitle" />
 
     <TextView
         android:id="@+id/textView56"
@@ -33,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text="Producto a ordenar:" />
+        android:text="@string/product_to_order" />
 
     <EditText
         android:id="@+id/editTextText12"
@@ -43,7 +42,7 @@
         android:inputType="text"
         android:layout_marginEnd="32dp"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar nombre Producto" />
+        android:text="@string/text_name_product" />
 
     <TextView
         android:id="@+id/textView57"
@@ -52,7 +51,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text=" Ingresar tipo de producto(comida, etc):" />
+        android:text="@string/type_product" />
 
     <EditText
         android:id="@+id/editTextText15"
@@ -71,7 +70,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text=" Ingresar email cliente aquí:" />
+        android:text="@string/enter_order_email_client" />
 
     <EditText
         android:id="@+id/editTextText16"
@@ -81,7 +80,7 @@
         android:inputType="text"
         android:layout_marginEnd="32dp"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar e-mail aquí" />
+        android:text="@string/email_client" />
 
     <TextView
         android:id="@+id/textView59"
@@ -90,7 +89,7 @@
         android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:text=" Ingresar si se ira a buscar a veterinaria o se enviara a domicilio:" />
+        android:text="@string/form_delivery" />
 
     <EditText
         android:id="@+id/editTextText17"
@@ -100,7 +99,7 @@
         android:inputType="text"
         android:layout_marginEnd="32dp"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar forma de entrega a producto" />
+        android:text="@string/text_form_Delivery" />
 
     <Button
         android:id="@+id/button25"
@@ -111,6 +110,6 @@
         android:layout_marginEnd="32dp"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="OK" />
+        android:text="@string/btn_order_product_ok" />
 
 </LinearLayout>

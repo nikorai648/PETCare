@@ -16,7 +16,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
         android:textColor="@color/white"
-        android:text="PETCare" />
+        android:text="@string/client_menu_tittle" />
 
     <TextView
         android:id="@+id/textView23"
@@ -25,7 +25,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="120dp"
         android:textColor="@color/white"
-        android:text=" Opciones de aplicación para Clientes" />
+        android:text="@string/options_menu_clients" />
 
     <Button
         android:id="@+id/button7"
@@ -34,7 +34,7 @@
         android:layout_marginBottom="40dp"
         android:backgroundTint="@color/white"
         android:layout_gravity="center_horizontal"
-        android:text="Solicitar horario de atención"
+        android:text="@string/btn_request_opening_hours"
         android:textColor="@color/black" />
 
     <Button
@@ -44,7 +44,7 @@
         android:layout_marginBottom="40dp"
         android:backgroundTint="@color/white"
         android:layout_gravity="center_horizontal"
-        android:text="Revisar fecha y horario de atención"
+        android:text="@string/btn_check_date_operation_hours"
         android:textColor="@color/black" />
 
     <Button
@@ -54,6 +54,6 @@
         android:layout_marginBottom="40dp"
         android:backgroundTint="@color/white"
         android:layout_gravity="center_horizontal"
-        android:text="Ordenar Producto"
+        android:text="@string/btn_order_product"
         android:textColor="@color/black" />
 </LinearLayout>

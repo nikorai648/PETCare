@@ -16,7 +16,7 @@
         android:layout_gravity="center_horizontal"
         android:paddingBottom="20dp"
         android:textColor="@color/white"
-        android:text=" PETCare" />
+        android:text="@string/selection_attention_title" />
 
     <TextView
         android:id="@+id/textView42"
@@ -25,14 +25,14 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text="Selección de atención hora a cliente" />
+        android:text="@string/selection_attention_subtitle" />
 
     <TextView
         android:id="@+id/textView46"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:text="Ingresar Nombre cliente:" />
+        android:text="@string/enter_name_client" />
 
     <EditText
         android:id="@+id/editTextText"
@@ -42,7 +42,7 @@
         android:inputType="text"
         android:textSize="15sp"
         android:layout_marginTop="20dp"
-        android:text="Ingresar Nombre aquí" />
+        android:text="@string/text_name_client" />
 
     <TextView
         android:id="@+id/textView47"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text="Ingresar apellido cliente:" />
+        android:text="@string/enter_lastname_client" />
 
     <EditText
         android:id="@+id/editTextText8"
@@ -59,7 +59,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text="Ingresar Apellido aquí" />
+        android:text="@string/text_lastname_client" />
 
     <TextView
         android:id="@+id/textView48"
@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text=" Ingresar e-mail:" />
+        android:text="@string/enter_email_client" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -83,7 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text=" Ingresar RUT:" />
+        android:text="@string/enter_rut_client" />
 
     <EditText
         android:id="@+id/editTextText13"
@@ -92,7 +92,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text="Ingresar RUT aquí" />
+        android:text="@string/text_rut_client" />
 
     <TextView
         android:id="@+id/textView50"
@@ -100,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text="Ingresar nombre(s) mascota(s):" />
+        android:text="@string/enter_names_pets" />
 
     <EditText
         android:id="@+id/editTextText14"
@@ -109,7 +109,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar Nombre(s) mascota(s) aquí" />
+        android:text="@string/text_names_pets" />
 
     <Button
         android:id="@+id/button24"
@@ -119,6 +119,6 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="OK" />
+        android:text="@string/btn_OK" />
 
 </LinearLayout>

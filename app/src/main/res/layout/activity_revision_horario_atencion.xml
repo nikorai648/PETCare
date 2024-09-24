@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textColor="@color/white"
-        android:text=" PETCare" />
+        android:text="@string/revision_title" />
 
     <TextView
         android:id="@+id/textView52"
@@ -25,7 +25,7 @@
         android:layout_marginTop="60dp"
         android:layout_marginEnd="32dp"
         android:textColor="@color/white"
-        android:text="Revisión horario de atención" />
+        android:text="@string/revision_subtitle" />
 
     <TextView
         android:id="@+id/textView53"
@@ -34,7 +34,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginTop="60dp"
         android:textColor="@color/white"
-        android:text="Nombre cliente 1" />
+        android:text="@string/name_client1" />
 
     <EditText
         android:id="@+id/editTextDate"

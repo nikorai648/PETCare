@@ -16,7 +16,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
         android:textColor="@color/white"
-        android:text="PETCare" />
+        android:text="@string/inventory_tittle" />
 
     <TextView
         android:id="@+id/textView31"
@@ -25,7 +25,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="120dp"
         android:textColor="@color/white"
-        android:text=" Opción ver inventario" />
+        android:text="@string/inventory_subtitle" />
 
     <Button
         android:id="@+id/button17"
@@ -35,7 +35,7 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="Medicamentos" />
+        android:text="@string/btn_medications" />
 
     <Button
         android:id="@+id/button18"
@@ -45,7 +45,7 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="Herramientas" />
+        android:text="@string/btn_tools" />
 
     <Button
         android:id="@+id/button19"
@@ -55,7 +55,7 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="Comida Mascotas" />
+        android:text="@string/btn_pets_food" />
 
     <Button
         android:id="@+id/button20"
@@ -65,5 +65,5 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text=" Otros Productos" />
+        android:text="@string/btn_other_products" />
 </LinearLayout>

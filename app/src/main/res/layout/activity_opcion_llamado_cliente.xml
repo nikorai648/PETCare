@@ -16,7 +16,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
         android:textColor="@color/white"
-        android:text=" PETCare" />
+        android:text="@string/call_client_title" />
 
     <TextView
         android:id="@+id/textView40"
@@ -25,7 +25,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="100dp"
         android:textColor="@color/white"
-        android:text=" Opción llamado a Clientes" />
+        android:text="@string/call_client_subtitle" />
 
     <TextView
         android:id="@+id/textView43"
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
         android:textColor="@color/white"
-        android:text="Cliente 1:" />
+        android:text="@string/client1_label" />
 
     <Button
         android:id="@+id/button21"
@@ -42,7 +42,7 @@
         android:layout_marginBottom="40dp"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="Llamar a cliente 1" />
+        android:text="@string/btn_call_client1" />
 
     <TextView
         android:id="@+id/textView44"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
         android:textColor="@color/white"
-        android:text="Cliente 2:" />
+        android:text="@string/client2_label" />
 
     <Button
         android:id="@+id/button22"
@@ -59,7 +59,7 @@
         android:layout_marginBottom="40dp"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="Llamar a cliente 2" />
+        android:text="@string/btn_call_client2" />
 
     <TextView
         android:id="@+id/textView45"
@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
         android:textColor="@color/white"
-        android:text=" Cliente 3:" />
+        android:text="@string/client3_label" />
 
     <Button
         android:id="@+id/button23"
@@ -75,6 +75,6 @@
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
         android:layout_height="wrap_content"
-        android:text=" Llamar a cliente 3" />
+        android:text="@string/btn_call_client3" />
 
 </LinearLayout>

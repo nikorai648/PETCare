@@ -37,6 +37,103 @@
     <string name="btn_inventory_vet">Ver Inventario de Veterinaria</string>
     <string name="btn_call_clients">Llamado para Clientes</string>
 
+    <!-- Datos para la clientemenuActivity -->
+    <string name="client_menu_tittle">PETCare</string>
+    <string name="options_menu_clients"> Opciones de aplicación para Clientes</string>
+    <string name="btn_request_opening_hours"> Solicitar horario de atención</string>
+    <string name="btn_check_date_operation_hours"> Revisar fecha y horario de atención</string>
+    <string name="btn_order_product"> Ordenar Producto</string>
+
+    <!-- Datos para el pagoclienteActivity -->
+    <string name="pay_options_tittle">PETCare</string>
+    <string name="pay_options_client"> Opciones de pago cliente</string>
+    <string name="btn_first_option">Mastercard</string>
+    <string name="btn_second_option"> BancoEstado</string>
+    <string name="btn_third_option">Otros</string>
+
+    <!-- Datos para el Registroclientepart1Activity -->
+    <string name="record_client_part1_tittle">PETCare</string>
+    <string name="record_client_menu">Registro de Clientes</string>
+    <string name="btn_client1">Cliente1</string>
+    <string name="btn_client2">Cliente2</string>
+    <string name="btn_client3">Cliente3</string>
+    <string name="btn_client4">Cliente4</string>
+
+    <!-- Datos para RegistroClienteparte2Activity -->
+    <string name="record_client_title">PETCare</string>
+    <string name="record_client_subtitle">Registro cliente1</string>
+    <string name="name_pets_client">Nombre(s) de Mascota(s) cliente 1</string>
+    <string name="species_pets_client">Raza(s) de mascota(s) cliente 1</string>
+    <string name="age_pets_client">Edad(s) de mascota(s) cliente 1</string>
+    <string name="treatment_actual_pets_client">Tratamiento(s) actual de mascota(s) de cliente 1</string>
+    <string name="treatment_text_pets_client">Tratamiento(s) de mascota(s) cliente 1</string>
+    <string name="state_actual_pets_client">Estado(s) actual de mascota(s) cliente 1</string>
+    <string name="state_text_pets_client">Estado(s) actual(es) de la(s) mascota(s) de cliente 1</string>
+
+    <!-- Datos para la opción de ver inventario -->
+    <string name="inventory_tittle">PETCare</string>
+    <string name="inventory_subtitle">Opción ver inventario</string>
+    <string name="btn_medications">Medicamentos</string>
+    <string name="btn_tools">Herramientas</string>
+    <string name="btn_pets_food">Comida Mascotas</string>
+    <string name="btn_other_products">Otros Productos</string>
+
+    <!-- Datos para la opción llamado a clientes -->
+    <string name="call_client_title">PETCare</string>
+    <string name="call_client_subtitle">Opción llamado a Clientes</string>
+    <string name="client1_label">Cliente 1:</string>
+    <string name="btn_call_client1">Llamar a cliente 1</string>
+    <string name="client2_label">Cliente 2:</string>
+    <string name="btn_call_client2">Llamar a cliente 2</string>
+    <string name="client3_label">Cliente 3:</string>
+    <string name="btn_call_client3">Llamar a cliente 3</string>
+
+    <!-- Datos de la selección de atención hora a cliente -->
+    <string name="selection_attention_title">PETCare</string>
+    <string name="selection_attention_subtitle">Selección de atención hora a cliente</string>
+    <string name="enter_name_client">Ingresar Nombre cliente:</string>
+    <string name="text_name_client">Ingresar Nombre aquí</string>
+    <string name="enter_lastname_client">Ingresar apellido cliente:</string>
+    <string name="text_lastname_client">Ingresar Apellido aquí</string>
+    <string name="enter_email_client">Ingresar e-mail:</string>
+    <string name="enter_rut_client">Ingresar RUT:</string>
+    <string name="text_rut_client">Ingresar RUT aquí</string>
+    <string name="enter_names_pets">Ingresar nombre(s) mascota(s):</string>
+    <string name="text_names_pets">Ingresar Nombre(s) mascota(s) aquí</string>
+    <string name="btn_OK">OK</string>
+
+    <!-- Datos para la revisión del horario de atención -->
+    <string name="revision_title">PETCare</string>
+    <string name="revision_subtitle">Revisión horario de atención</string>
+    <string name="name_client1">Nombre cliente 1</string>
+
+    <!-- Strings para la opción ordenar producto -->
+    <string name="order_product_title">PETCare</string>
+    <string name="order_product_subtitle">Opción ordenar producto</string>
+    <string name="product_to_order">Producto a ordenar:</string>
+    <string name="text_name_product">Ingresar nombre Producto</string>
+    <string name="type_product">Ingresar tipo de producto (comida, etc):</string>
+    <string name="enter_order_email_client">Ingresar email cliente aquí:</string>
+    <string name="email_client">Ingresar e-mail cliente aquí:</string>
+    <string name="form_delivery">Ingresar si se irá a buscar a veterinaria o se enviará a domicilio:</string>
+    <string name="text_form_Delivery">Ingresar forma de entrega a producto</string>
+    <string name="btn_order_product_ok">OK</string>
+
+    <!-- Datos para la opción agregar producto -->
+    <string name="add_product_title">PETCare</string>
+    <string name="add_product_subtitle">Opción Agregar producto</string>
+    <string name="name_product">Ingresar nombre producto:</string>
+    <string name="text_add_name_product">Ingresar el nombre del producto aquí</string>
+    <string name="description_product">Ingrese descripción del producto:</string>
+    <string name="text_description_product">Ingresar la descripción del producto</string>
+    <string name="type_add_product">Ingresar tipo de producto:</string>
+    <string name="text_type_product">Ingresar el tipo de producto</string>
+    <string name="price_product">Ingresar precio del producto:</string>
+    <string name="text_price_product">Ingresar el precio del producto</string>
+    <string name="amount_add_product">Ingresar cantidad de producto que agregar:</string>
+    <string name="text_add_amount_product">Ingresar cantidad de producto que agregar</string>
+    <string name="btn_add_save">Guardar</string>
+
 
 
 </resources>

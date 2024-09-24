@@ -16,7 +16,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
         android:textColor="@color/white"
-        android:text="PETCare" />
+        android:text="@string/record_client_part1_tittle" />
 
     <TextView
         android:id="@+id/textView27"
@@ -25,7 +25,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="120dp"
         android:textColor="@color/white"
-        android:text="Registro de Clientes" />
+        android:text="@string/record_client_menu" />
 
     <Button
         android:id="@+id/button13"
@@ -35,7 +35,7 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="Cliente1" />
+        android:text="@string/btn_client1" />
 
     <Button
         android:id="@+id/button14"
@@ -45,7 +45,7 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="Cliente2" />
+        android:text="@string/btn_client2" />
 
     <Button
         android:id="@+id/button15"
@@ -55,7 +55,7 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="Cliente3" />
+        android:text="@string/btn_client3" />
 
     <Button
         android:id="@+id/button16"
@@ -65,5 +65,5 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="Cliente4" />
+        android:text="@string/btn_client4" />
 </LinearLayout>

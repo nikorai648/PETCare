@@ -16,7 +16,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
         android:textColor="@color/white"
-        android:text=" PETCare" />
+        android:text="@string/pay_options_tittle" />
 
     <TextView
         android:id="@+id/textView25"
@@ -25,7 +25,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="120dp"
         android:textColor="@color/white"
-        android:text="Opciones de pago cliente" />
+        android:text="@string/pay_options_client" />
 
     <Button
         android:id="@+id/button10"
@@ -35,7 +35,7 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text=" Mastercard" />
+        android:text="@string/btn_first_option" />
 
     <Button
         android:id="@+id/button11"
@@ -45,7 +45,7 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="BancoEstado" />
+        android:text="@string/btn_second_option" />
 
     <Button
         android:id="@+id/button12"
@@ -55,5 +55,5 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text=" Otros" />
+        android:text="@string/btn_third_option" />
 </LinearLayout>
