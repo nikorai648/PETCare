@@ -16,7 +16,7 @@
         android:layout_gravity="center_horizontal"
         android:textColor="@color/white"
         android:layout_marginBottom="80dp"
-        android:text="PETCare" />
+        android:text="@string/inventory_tools_title" />
 
     <TextView
         android:id="@+id/textView86"
@@ -25,7 +25,7 @@
         android:layout_gravity="center_horizontal"
         android:textColor="@color/white"
         android:layout_marginBottom="30dp"
-        android:text="Inventario Herramientas" />
+        android:text="@string/inventory_tools_subtitle" />
 
     <!-- Tabla de Inventario de Herramientas -->
     <TableLayout
@@ -39,31 +39,86 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Herramienta"
+                android:text="@string/tabla_tools"
                 android:textStyle="bold"
                 android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Herramienta1" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Herramienta2" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Herramienta3" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Herramienta4" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Herramienta5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Herramienta6" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Herramienta7" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Herramienta8" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Herramienta9" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Herramienta10" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Herramienta11" android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/tool1"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/tool2"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/tool3"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/tool4"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/tool5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/tool6"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/tool7"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/tool8"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/tool9"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/tool10"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/tool11"
+                android:gravity="center" />
+
         </TableRow>
 
         <!-- Fila 2: Cantidad de Herramientas -->
@@ -75,28 +130,77 @@
                 android:text="Cantidad"
                 android:textStyle="bold"
                 android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
         </TableRow>
 
         <!-- Fila 3: Estado de Herramientas -->
@@ -108,30 +212,80 @@
                 android:text="Estado"
                 android:textStyle="bold"
                 android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/state_tools_good"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/state_tools_good"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/state_tools_good"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/state_tools_good"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/state_tools_good"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/state_tools_good"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/state_tools_good"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/state_tools_good"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/state_tools_good"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/state_tools_good"
+                android:gravity="center" />
+
         </TableRow>
     </TableLayout>
+
     <Space
         android:layout_width="match_parent"
         android:layout_height="48dp" />
@@ -152,7 +306,7 @@
             android:textColor="@color/red"
             android:backgroundTint="@color/white"
             android:layout_marginEnd="40dp"
-            android:text="Eliminar" />
+            android:text="@string/btn_tool_delete" />
 
         <!-- Botón Modificar -->
         <Button
@@ -163,7 +317,7 @@
             android:textColor="@color/blue"
             android:backgroundTint="@color/white"
             android:layout_marginEnd="40dp"
-            android:text="Modificar" />
+            android:text="@string/btn_tool_modify" />
 
         <!-- Botón Agregar -->
         <Button
@@ -173,6 +327,7 @@
             android:layout_gravity="center"
             android:textColor="@color/green"
             android:backgroundTint="@color/white"
-            android:text="Agregar" />
+            android:text="@string/btn_tool_add" />
     </LinearLayout>
+
 </LinearLayout>
