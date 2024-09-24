@@ -11,24 +11,23 @@
 
     <TextView
         android:id="@+id/textView87"
-        android:layout_width="87dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textColor="@color/white"
         android:layout_marginBottom="80dp"
-        android:text="PETCare" />
+        android:text="@string/inventory_other_products_title" /> <!-- Usando el string del título -->
 
     <TextView
         android:id="@+id/textView88"
-        android:layout_width="169dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="30dp"
         android:textColor="@color/white"
-        android:text="Inventario Otros Productos" />
+        android:text="@string/inventory_other_products_subtitle" /> <!-- Usando el string del subtítulo -->
 
     <!-- Tabla de Inventario de Otros Productos -->
-
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -40,17 +39,33 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Otros Productos"
+                android:text="@string/other_products"
                 android:textStyle="bold"
                 android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Camas" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Juguetes" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Correas" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Jaulas" android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/beds"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/toys"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/collars"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/cages"
+                android:gravity="center" />
         </TableRow>
 
         <!-- Fila 2: Cantidad de Productos -->
@@ -59,17 +74,33 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Cantidad"
+                android:text="@string/quantity"
                 android:textStyle="bold"
                 android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
         </TableRow>
 
         <!-- Fila 3: Estado de Productos -->
@@ -78,17 +109,33 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Estado"
+                android:text="@string/state"
                 android:textStyle="bold"
                 android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/good_condition"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/good_condition"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/good_condition"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/good_condition"
+                android:gravity="center" />
         </TableRow>
     </TableLayout>
 
@@ -112,7 +159,7 @@
             android:textColor="@color/red"
             android:backgroundTint="@color/white"
             android:layout_marginEnd="40dp"
-            android:text="Eliminar" />
+            android:text="@string/button_other_product_delete" />
 
         <!-- Botón Modificar -->
         <Button
@@ -123,7 +170,7 @@
             android:textColor="@color/blue"
             android:backgroundTint="@color/white"
             android:layout_marginEnd="40dp"
-            android:text="Modificar" />
+            android:text="@string/button_other_product_modify" />
 
         <!-- Botón Agregar -->
         <Button
@@ -133,6 +180,7 @@
             android:layout_gravity="center"
             android:textColor="@color/green"
             android:backgroundTint="@color/white"
-            android:text="Agregar" />
+            android:text="@string/button_other_product_add" />
     </LinearLayout>
+
 </LinearLayout>

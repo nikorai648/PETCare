@@ -240,10 +240,10 @@
     <string name="quantity">Cantidad</string>
     <string name="state">Estado</string>
     <string name="good_condition">Buen Estado</string>
-    <strig name="beds">Camas</strig>
-    <strig name="toys"> Juguetes</strig>
-    <strig name="collars">Correas</strig>
-    <strig name="cages">Jaulas</strig>
+    <string name="beds">Camas</string>
+    <string name="toys"> Juguetes</string>
+    <string name="collars">Correas</string>
+    <string name="cages">Jaulas</string>
     <string name="button_other_product_delete">Eliminar</string>
     <string name="button_other_product_modify">Modificar</string>
     <string name="button_other_product_add">Agregar</string>
