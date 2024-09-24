@@ -172,6 +172,80 @@
     <string name="btn_warning_confirm">Confirmar</string>
     <string name="btn_cancel">Cancelar</string>
 
+    <!-- Datos para el Inventario de Medicamentos -->
+    <string name="inventory_medications_title">PETCare</string>
+    <string name="inventory_medications_subtitle">Inventario Medicamentos</string>
+    <string name="tabla_medications">Medicamentos</string>
+    <string name="amount_medications">Cantidad</string>
+    <string name="state_medications">Estado</string>
+    <string name="medication1">Medicamento1</string>
+    <string name="medication2">Medicamento2</string>
+    <string name="medication3">Medicamento3</string>
+    <string name="medication4">Medicamento4</string>
+    <string name="medication5">Medicamento5</string>
+    <string name="medication6">Medicamento6</string>
+    <string name="medication7">Medicamento7</string>
+    <string name="medication8">Medicamento8</string>
+    <string name="medication9">Medicamento9</string>
+    <string name="medication10">Medicamento10</string>
+    <string name="Good_State">Buen Estado</string>
+    <string name="btn_medicament_delete">Eliminar</string>
+    <string name="btn_medicament_modify">Modificar</string>
+    <string name="btn_medicament_add">Agregar</string>
 
+    <!-- Datos para el Inventario de Herramientas -->
+    <string name="inventory_tools_title">PETCare</string>
+    <string name="inventory_tools_subtitle">Inventario Herramientas</string>
+    <string name="tabla_tools">Herramienta</string>
+    <string name="amount_tools">Cantidad</string>
+    <string name="state_tools">Estado</string>
+    <string name="tool1">Herramienta1</string>
+    <string name="tool2">Herramienta2</string>
+    <string name="tool3">Herramienta3</string>
+    <string name="tool4">Herramienta4</string>
+    <string name="tool5">Herramienta5</string>
+    <string name="tool6">Herramienta6</string>
+    <string name="tool7">Herramienta7</string>
+    <string name="tool8">Herramienta8</string>
+    <string name="tool9">Herramienta9</string>
+    <string name="tool10">Herramienta10</string>
+    <string name="tool11">Herramienta11</string>
+    <string name="state_tools_good">Buen Estado</string>
+    <string name="btn_tool_delete">Eliminar</string>
+    <string name="btn_tool_modify">Modificar</string>
+    <string name="btn_tool_add">Agregar</string>
+
+
+    <!-- Datos para el Inventario de Comida -->
+    <string name="inventory_food_title">PETCare</string>
+    <string name="inventory_food_subtitle">Inventario Comida Mascotas</string>
+    <string name="food_inventory_header">Comida Mascotas</string>
+    <string name="quantity_food">Cantidad</string>
+    <string name="state_food">Estado</string>
+    <string name="state_food_good">Buen Estado</string>
+    <string name="food1">Comida1</string>
+    <string name="food2">Comida2</string>
+    <string name="food3">Comida3</string>
+    <string name="food4">Comida4</string>
+    <string name="food5">Comida5</string>
+    <string name="food6">Comida6</string>
+    <string name="button_food_delete">Eliminar</string>
+    <string name="button_food_modify">Modificar</string>
+    <string name="button_food_add">Agregar</string>
+
+    <!-- Datos para el Inventario de otros productos -->
+    <string name="inventory_other_products_title">PETCare</string>
+    <string name="inventory_other_products_subtitle">Inventario Otros Productos</string>
+    <string name="other_products">Producto</string>
+    <string name="quantity">Cantidad</string>
+    <string name="state">Estado</string>
+    <string name="good_condition">Buen Estado</string>
+    <strig name="beds">Camas</strig>
+    <strig name="toys"> Juguetes</strig>
+    <strig name="collars">Correas</strig>
+    <strig name="cages">Jaulas</strig>
+    <string name="button_other_product_delete">Eliminar</string>
+    <string name="button_other_product_modify">Modificar</string>
+    <string name="button_other_product_add">Agregar</string>
 
 </resources>
