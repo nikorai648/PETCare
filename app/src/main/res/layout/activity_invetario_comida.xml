@@ -16,7 +16,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
         android:textColor="@color/white"
-        android:text="PETCare" />
+        android:text="@string/inventory_food_title" />
 
     <TextView
         android:id="@+id/textView84"
@@ -25,10 +25,9 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="30dp"
         android:textColor="@color/white"
-        android:text="  Inventario Comida Mascotas" />
+        android:text="@string/inventory_food_subtitle" />
 
     <!-- Tabla de Inventario de Comida -->
-
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -40,21 +39,52 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Comida Mascotas"
+                android:text="@string/food_inventory_header"
                 android:textStyle="bold"
                 android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Comida1" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Comida2" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Comida3" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Comida4" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Comida5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Comida6" android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/food1"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/food2"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/food3"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/food4"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/food5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/food6"
+                android:gravity="center" />
+
         </TableRow>
 
         <!-- Fila 2: Cantidad de Comida -->
@@ -63,21 +93,52 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Cantidad"
+                android:text="@string/quantity_food"
                 android:textStyle="bold"
                 android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="5" android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
         </TableRow>
 
         <!-- Fila 3: Estado de la Comida -->
@@ -86,21 +147,52 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Estado"
+                android:text="@string/state_food"
                 android:textStyle="bold"
                 android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:padding="8dp" android:text="Buen Estado" android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/state_food_good"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/state_food_good"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/state_food_good"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/state_food_good"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/state_food_good"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/state_food_good"
+                android:gravity="center" />
+
         </TableRow>
     </TableLayout>
 
@@ -124,7 +216,7 @@
             android:textColor="@color/red"
             android:backgroundTint="@color/white"
             android:layout_marginEnd="40dp"
-            android:text="Eliminar" />
+            android:text="@string/button_food_delete" />
 
         <!-- Botón Modificar -->
         <Button
@@ -135,7 +227,7 @@
             android:textColor="@color/blue"
             android:backgroundTint="@color/white"
             android:layout_marginEnd="40dp"
-            android:text="Modificar" />
+            android:text="@string/button_food_modify" />
 
         <!-- Botón Agregar -->
         <Button
@@ -145,6 +237,6 @@
             android:layout_gravity="center"
             android:textColor="@color/green"
             android:backgroundTint="@color/white"
-            android:text="Agregar" />
+            android:text="@string/button_food_add" />
     </LinearLayout>
 </LinearLayout>
