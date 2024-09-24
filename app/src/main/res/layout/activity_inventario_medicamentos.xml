@@ -11,21 +11,21 @@
 
     <TextView
         android:id="@+id/textView37"
-        android:layout_width="87dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
         android:textColor="@color/white"
-        android:text="PETCare" />
+        android:text="@string/inventory_medications_title" />
 
     <TextView
         android:id="@+id/textView38"
-        android:layout_width="169dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="30dp"
         android:textColor="@color/white"
-        android:text="Inventario Medicamentos" />
+        android:text="@string/inventory_medications_subtitle" />
 
     <!-- Tabla de Inventario de Medicamentos -->
     <TableLayout
@@ -36,13 +36,12 @@
 
         <!-- Fila 1: Medicamentos -->
         <TableRow android:orientation="vertical">
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Medicamentos"
+                android:text="@string/tabla_medications"
                 android:textStyle="bold" />
 
             <TextView
@@ -50,89 +49,81 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Medicamento1" />
+                android:text="@string/medication1" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Medicamento2" />
+                android:text="@string/medication2" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Medicamento3" />
+                android:text="@string/medication3" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Medicamento4" />
+                android:text="@string/medication4" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Medicamento5" />
+                android:text="@string/medication5" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Medicamento6" />
+                android:text="@string/medication6" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Medicamento7" />
+                android:text="@string/medication7" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Medicamento8" />
+                android:text="@string/medication8" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Medicamento9" />
+                android:text="@string/medication9" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Medicamento10" />
+                android:text="@string/medication10" />
         </TableRow>
 
         <!-- Fila 2: Cantidad de Medicamentos -->
         <TableRow android:orientation="vertical">
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Cantidad"
+                android:text="@string/amount_medications"
                 android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="8dp"
-                android:text="5" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -200,13 +191,12 @@
 
         <!-- Fila 3: Estado de Medicamentos -->
         <TableRow android:orientation="vertical">
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Estado"
+                android:text="@string/state_medications"
                 android:textStyle="bold" />
 
             <TextView
@@ -214,72 +204,66 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Buen Estado" />
+                android:text="@string/Good_State" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Buen Estado" />
+                android:text="@string/Good_State" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Buen Estado" />
+                android:text="@string/Good_State" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Buen Estado" />
+                android:text="@string/Good_State" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Buen Estado" />
+                android:text="@string/Good_State" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Buen Estado" />
+                android:text="@string/Good_State" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Buen Estado" />
+                android:text="@string/Good_State" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Buen Estado" />
+                android:text="@string/Good_State" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Buen Estado" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="8dp"
-                android:text="Buen Estado" />
+                android:text="@string/Good_State" />
         </TableRow>
     </TableLayout>
+
     <!-- Espacio entre la tabla y los botones -->
     <Space
         android:layout_width="match_parent"
@@ -301,7 +285,7 @@
             android:textColor="@color/red"
             android:backgroundTint="@color/white"
             android:layout_marginEnd="40dp"
-            android:text="Eliminar" />
+            android:text="@string/btn_medicament_delete" />
 
         <!-- Botón Modificar -->
         <Button
@@ -312,7 +296,7 @@
             android:textColor="@color/blue"
             android:backgroundTint="@color/white"
             android:layout_marginEnd="40dp"
-            android:text="Modificar" />
+            android:text="@string/btn_medicament_modify" />
 
         <!-- Botón Agregar -->
         <Button
@@ -322,6 +306,6 @@
             android:layout_gravity="center"
             android:textColor="@color/green"
             android:backgroundTint="@color/white"
-            android:text="Agregar" />
+            android:text="@string/btn_medicament_add" />
     </LinearLayout>
 </LinearLayout>
