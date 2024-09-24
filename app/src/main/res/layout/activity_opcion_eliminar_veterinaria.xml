@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textColor="@color/white"
-        android:text="PETCare" />
+        android:text="@string/delete_product_title" />
 
     <TextView
         android:id="@+id/textView75"
@@ -25,7 +25,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
         android:textColor="@color/white"
-        android:text=" Opción Eliminar producto" />
+        android:text="@string/delete_product_subtitle" />
 
     <TextView
         android:id="@+id/textView76"
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text=" Ingresar nombre producto:" />
+        android:text="@string/name_delete_product" />
 
     <EditText
         android:id="@+id/editTextText28"
@@ -42,7 +42,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar el nombre del producto" />
+        android:text="@string/text_delete_name_product" />
 
     <TextView
         android:id="@+id/textView77"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text="Ingresar descripción de producto:" />
+        android:text="@string/description_delete_product" />
 
     <EditText
         android:id="@+id/editTextText29"
@@ -59,7 +59,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar la descripción del producto" />
+        android:text="@string/text_description_delete_product" />
 
     <TextView
         android:id="@+id/textView78"
@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text=" Ingresar tipo producto:" />
+        android:text="@string/type_delete_product" />
 
     <EditText
         android:id="@+id/editTextText30"
@@ -76,7 +76,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar el tipo del producto" />
+        android:text="@string/text_delete_type_product" />
 
     <TextView
         android:id="@+id/textView79"
@@ -84,7 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text="Ingresar precio producto:" />
+        android:text="@string/price_delete_product" />
 
     <EditText
         android:id="@+id/editTextText31"
@@ -93,7 +93,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar el precio del producto" />
+        android:text="@string/text_price_delete_product" />
 
     <TextView
         android:id="@+id/textView80"
@@ -101,7 +101,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text=" Ingresar cantidad de producto a eliminar:" />
+        android:text="@string/amount_delete_product" />
 
     <EditText
         android:id="@+id/editTextText32"
@@ -110,7 +110,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar la cantidad de productos a eliminar" />
+        android:text="@string/text_delete_amount_product" />
 
     <Button
         android:id="@+id/button28"
@@ -120,5 +120,5 @@
         android:backgroundTint="@color/white"
         android:layout_gravity="center_horizontal"
         android:textColor="@color/black"
-        android:text="Eliminar" />
+        android:text="@string/btn_delete_save" />
 </LinearLayout>

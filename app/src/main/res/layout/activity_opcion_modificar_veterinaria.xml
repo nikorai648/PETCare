@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textColor="@color/white"
-        android:text="PETCare" />
+        android:text="@string/modify_product_title" />
 
     <TextView
         android:id="@+id/textView68"
@@ -25,7 +25,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
         android:textColor="@color/white"
-        android:text=" Opción Modificar producto" />
+        android:text="@string/modify_product_subtitle" />
 
     <TextView
         android:id="@+id/textView69"
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text=" Ingresar nombre producto:" />
+        android:text="@string/name_modify_product" />
 
     <EditText
         android:id="@+id/editTextText23"
@@ -42,7 +42,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar el nombre del producto aquí" />
+        android:text="@string/text_modify_name_product" />
 
     <TextView
         android:id="@+id/textView70"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text="Ingresar descripción del producto:" />
+        android:text="@string/description_modify_product" />
 
     <EditText
         android:id="@+id/editTextText24"
@@ -59,7 +59,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar la descripción del producto aquí" />
+        android:text="@string/text_description_modify_product" />
 
     <TextView
         android:id="@+id/textView71"
@@ -67,8 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text="Ingresar tipo de producto:" />
-
+        android:text="@string/type_modify_product"/>
     <EditText
         android:id="@+id/editTextText25"
         android:layout_width="match_parent"
@@ -76,7 +75,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar el tipo del producto aquí:" />
+        android:text="@string/text_modify_type_product" />
 
     <TextView
         android:id="@+id/textView72"
@@ -84,7 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text="Ingresar precio del producto:" />
+        android:text="@string/price_modify_product" />
 
     <EditText
         android:id="@+id/editTextText26"
@@ -93,7 +92,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar el precio del producto aquí" />
+        android:text="@string/text_price_modify_product" />
 
     <TextView
         android:id="@+id/textView73"
@@ -101,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text=" Ingresar la cantidad de  producto que se deben modificar:" />
+        android:text="@string/amount_modify_product" />
 
     <EditText
         android:id="@+id/editTextText27"
@@ -110,7 +109,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text="Ingresar la cantidad de producto modificados aqui" />
+        android:text="@string/text_modify_amount_product" />
 
     <Button
         android:id="@+id/button27"
@@ -120,5 +119,5 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="Actualizar" />
+        android:text="@string/btn_modify_save" />
 </LinearLayout>

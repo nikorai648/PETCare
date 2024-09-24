@@ -122,17 +122,55 @@
     <!-- Datos para la opción agregar producto -->
     <string name="add_product_title">PETCare</string>
     <string name="add_product_subtitle">Opción Agregar producto</string>
-    <string name="name_product">Ingresar nombre producto:</string>
+    <string name="name_add_product">Ingresar nombre producto:</string>
     <string name="text_add_name_product">Ingresar el nombre del producto aquí</string>
-    <string name="description_product">Ingrese descripción del producto:</string>
-    <string name="text_description_product">Ingresar la descripción del producto</string>
+    <string name="description_add_product">Ingrese descripción del producto:</string>
+    <string name="text_description_add_product">Ingresar la descripción del producto</string>
     <string name="type_add_product">Ingresar tipo de producto:</string>
-    <string name="text_type_product">Ingresar el tipo de producto</string>
-    <string name="price_product">Ingresar precio del producto:</string>
-    <string name="text_price_product">Ingresar el precio del producto</string>
+    <string name="text_add_type_product">Ingresar el tipo de producto</string>
+    <string name="price_add_product">Ingresar precio del producto:</string>
+    <string name="text_price_add_product">Ingresar el precio del producto</string>
     <string name="amount_add_product">Ingresar cantidad de producto que agregar:</string>
     <string name="text_add_amount_product">Ingresar cantidad de producto que agregar</string>
     <string name="btn_add_save">Guardar</string>
+
+    <!-- Datos para la opción modificar producto -->
+    <string name="modify_product_title">PETCare</string>
+    <string name="modify_product_subtitle"> Opción Modificar producto</string>
+    <string name="name_modify_product">Ingresar nombre producto:</string>
+    <string name="text_modify_name_product">Ingresar el nombre del producto aquí</string>
+    <string name="description_modify_product">Ingrese descripción del producto:</string>
+    <string name="text_description_modify_product">Ingresar la descripción del producto aqui</string>
+    <string name="type_modify_product">Ingresar tipo de producto:</string>
+    <string name="text_modify_type_product">Ingresar el tipo de producto:</string>
+    <string name="price_modify_product">Ingresar precio del producto aqui:</string>
+    <string name="text_price_modify_product">Ingresar el precio del producto aqui</string>
+    <string name="amount_modify_product"> Ingresar la cantidad de  producto que se deben modificar:</string>
+    <string name="text_modify_amount_product">Ingresar cantidad de  producto modificados aqui</string>
+    <string name="btn_modify_save">Actualizar</string>
+
+    <!-- Datos para la opción eliminar producto -->
+    <string name="delete_product_title">PETCare</string>
+    <string name="delete_product_subtitle"> Opción Eliminar producto</string>
+    <string name="name_delete_product">Ingresar nombre producto:</string>
+    <string name="text_delete_name_product">Ingresar el nombre del producto</string>
+    <string name="description_delete_product">Ingrese descripción del producto:</string>
+    <string name="text_description_delete_product">Ingresar la descripción del producto</string>
+    <string name="type_delete_product">Ingresar tipo de producto:</string>
+    <string name="text_delete_type_product">Ingresar el tipo de producto:</string>
+    <string name="price_delete_product">Ingresar precio del producto</string>
+    <string name="text_price_delete_product">Ingresar el precio del producto </string>
+    <string name="amount_delete_product">  Ingresar cantidad de producto a eliminar:</string>
+    <string name="text_delete_amount_product"> Ingresar la cantidad de productos a eliminar</string>
+    <string name="btn_delete_save">Eliminar</string>
+
+    <!-- Datos para la confirmación de eliminación de producto -->
+    <string name="confirmation_delete_title">PETCare</string>
+    <string name="confirmation_delete_subtitle">Confirmación de eliminación producto</string>
+    <string name="warning">Advertencia</string>
+    <string name="message_confirmation">Una vez borrado, la información borrada será imposible de recuperar. ¿Aún desea continuar con la acción de eliminación?</string>
+    <string name="btn_warning_confirm">Confirmar</string>
+    <string name="btn_cancel">Cancelar</string>
 
 
 

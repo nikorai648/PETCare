@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text="Ingresar nombre producto:" />
+        android:text="@string/name_add_product" />
 
     <EditText
         android:id="@+id/editTextText18"
@@ -42,7 +42,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar el nombre del producto aquí" />
+        android:text="@string/text_add_name_product" />
 
     <TextView
         android:id="@+id/textView63"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text="Ingrese descripción del producto:" />
+        android:text="@string/description_add_product" />
 
     <EditText
         android:id="@+id/editTextText19"
@@ -59,7 +59,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar la descripción del producto" />
+        android:text="@string/text_description_add_product" />
 
     <TextView
         android:id="@+id/textView64"
@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text="Ingresar tipo de producto:" />
+        android:text="@string/type_add_product" />
 
     <EditText
         android:id="@+id/editTextText20"
@@ -76,14 +76,14 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text="Ingresar el tipo de producto" />
+        android:text="@string/text_add_name_product" />
 
     <TextView
         android:id="@+id/textView65"
         android:layout_width="192dp"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:text="Ingresar precio del producto:" />
+        android:text="@string/price_add_product" />
 
     <EditText
         android:id="@+id/editTextText21"
@@ -92,7 +92,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text="Ingresar el precio del producto" />
+        android:text="@string/text_price_add_product" />
 
     <TextView
         android:id="@+id/textView66"
@@ -100,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
-        android:text=" Ingresar  cantidad de producto que agregar:" />
+        android:text="@string/amount_add_product" />
 
     <EditText
         android:id="@+id/editTextText22"
@@ -109,7 +109,7 @@
         android:ems="10"
         android:inputType="text"
         android:layout_marginTop="20dp"
-        android:text=" Ingresar  cantidad de producto que agregar:" />
+        android:text="@string/text_add_amount_product" />
 
     <Button
         android:id="@+id/button26"
@@ -119,5 +119,5 @@
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="Guardar" />
+        android:text="@string/btn_add_save" />
 </LinearLayout>
