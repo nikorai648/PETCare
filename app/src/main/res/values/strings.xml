@@ -248,4 +248,6 @@
     <string name="button_other_product_modify">Modificar</string>
     <string name="button_other_product_add">Agregar</string>
 
+    <string name="first_fragment_label">First Fragment</string>
+
 </resources>
