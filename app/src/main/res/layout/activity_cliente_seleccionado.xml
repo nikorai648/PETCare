@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="32dp"
         android:paddingBottom="10dp"
         android:textColor="@color/white"
@@ -43,7 +43,7 @@
     <EditText
         android:id="@+id/editTextText3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="text"
@@ -63,7 +63,7 @@
     <EditText
         android:id="@+id/editTextText4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="text"
@@ -83,7 +83,7 @@
     <EditText
         android:id="@+id/editTextPhone"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="phone"
@@ -102,7 +102,7 @@
     <EditText
         android:id="@+id/editTextText5"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="text"
@@ -122,7 +122,7 @@
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="textPassword"
@@ -141,7 +141,7 @@
     <EditText
         android:id="@+id/editTextTextPassword2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/white"
@@ -160,7 +160,7 @@
     <EditText
         android:id="@+id/editTextText6"
         android:layout_width="match_parent"
-        android:layout_height="47dp"
+        android:layout_height="48dp"
         android:layout_marginTop="10dp"
         android:ems="10"
         android:backgroundTint="@color/white"
