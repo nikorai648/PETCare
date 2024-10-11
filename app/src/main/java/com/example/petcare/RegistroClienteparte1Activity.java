@@ -19,21 +19,21 @@ public class RegistroClienteparte1Activity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_registro_clienteparte1);
 
-        // Ajustar ventanas para el modo Edge-to-Edge
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
 
-        // Inicializar el botón "Cliente1"
+
         Button btnCliente1 = findViewById(R.id.button13);
 
-        // Listener para el botón "Cliente1"
+
         btnCliente1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Redirigir a RegistroClienteparte2Activity
+                // manda a RegistroClienteparte2Activity
                 Intent intent = new Intent(RegistroClienteparte1Activity.this, RegistroClienteparte2Activity.class);
                 startActivity(intent);
             }

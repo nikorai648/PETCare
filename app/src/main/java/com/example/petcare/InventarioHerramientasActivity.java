@@ -24,12 +24,12 @@ public class InventarioHerramientasActivity extends AppCompatActivity {
             return insets;
         });
 
-        // Referencias a los botones
+
         Button btnAgregar = findViewById(R.id.btnAgregar);
         Button btnModificar = findViewById(R.id.btnModificar);
         Button btnEliminar = findViewById(R.id.btnEliminar);
 
-        // Listener para el botón "Agregar"
+
         btnAgregar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,7 +38,7 @@ public class InventarioHerramientasActivity extends AppCompatActivity {
             }
         });
 
-        // Listener para el botón "Modificar"
+
         btnModificar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,7 +47,7 @@ public class InventarioHerramientasActivity extends AppCompatActivity {
             }
         });
 
-        // Listener para el botón "Eliminar"
+
         btnEliminar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

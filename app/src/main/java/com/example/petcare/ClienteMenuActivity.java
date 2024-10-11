@@ -26,12 +26,12 @@ public class ClienteMenuActivity extends AppCompatActivity {
             return insets;
         });
 
-        // Inicializar los botones
+
         Button btnSolicitarHorario = findViewById(R.id.button7);
         Button btnRevisarFechaHorario = findViewById(R.id.button8);
         Button btnOrdenarProducto = findViewById(R.id.button9);
 
-        // Listener para el botón "Solicitar horario de atención"
+
         btnSolicitarHorario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -40,7 +40,7 @@ public class ClienteMenuActivity extends AppCompatActivity {
             }
         });
 
-        // Listener para el botón "Revisar fecha y horario de atención"
+
         btnRevisarFechaHorario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,7 +49,7 @@ public class ClienteMenuActivity extends AppCompatActivity {
             }
         });
 
-        // Listener para el botón "Ordenar Producto"
+
         btnOrdenarProducto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

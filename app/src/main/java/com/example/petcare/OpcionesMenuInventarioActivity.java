@@ -25,13 +25,13 @@ public class OpcionesMenuInventarioActivity extends AppCompatActivity {
             return insets;
         });
 
-        // Inicializar los botones
+
         Button btnMedicamentos = findViewById(R.id.button17);
         Button btnHerramientas = findViewById(R.id.button18);
         Button btnComidaMascotas = findViewById(R.id.button19);
         Button btnOtrosProductos = findViewById(R.id.button20);
 
-        // Listener para el botón "Medicamentos"
+
         btnMedicamentos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -40,7 +40,7 @@ public class OpcionesMenuInventarioActivity extends AppCompatActivity {
             }
         });
 
-        // Listener para el botón "Herramientas"
+
         btnHerramientas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,7 +49,7 @@ public class OpcionesMenuInventarioActivity extends AppCompatActivity {
             }
         });
 
-        // Listener para el botón "Comida Mascotas"
+
         btnComidaMascotas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,7 +58,7 @@ public class OpcionesMenuInventarioActivity extends AppCompatActivity {
             }
         });
 
-        // Listener para el botón "Otros Productos"
+
         btnOtrosProductos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

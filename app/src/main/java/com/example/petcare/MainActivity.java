@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Referencias de los botones
+
         Button btnEmpleado = findViewById(R.id.btnEmpleado);
         Button btnCliente = findViewById(R.id.btnCliente);
 

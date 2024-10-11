@@ -40,27 +40,27 @@ public class ClienteSeleccionadoActivity extends AppCompatActivity {
         editConfirmContrasena = findViewById(R.id.editTextTextPassword2);  // Confirmar contraseña
         editNombresMascotas = findViewById(R.id.editTextText6);  // Nombres de las mascotas
 
-        // Botón para enviar el formulario
+        // Boton para enviar el formulario
         Button btnEnviar = findViewById(R.id.button);
 
-        // Evento onClick para el botón de confirmación
+
         btnEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Validar si los campos están llenos y las contraseñas coinciden
+                // Valida si los campos están llenos y las contraseñas coinciden
                 if (validarFormulario()) {
-                    // Redirigir a ClienteMenuActivity si el formulario está completo
+                    // manda a ClienteMenuActivity si el formulario está completo
                     Intent intent = new Intent(ClienteSeleccionadoActivity.this, ClienteMenuActivity.class);
                     startActivity(intent);
                 } else {
-                    // Mostrar mensaje de error si algún campo está vacío
+                    // Muestra mensaje de error si algun campo está vacío
                     Toast.makeText(ClienteSeleccionadoActivity.this, "Por favor, complete todos los campos", Toast.LENGTH_SHORT).show();
                 }
             }
         });
     }
 
-    // Método para validar si los campos están llenos y las contraseñas coinciden
+    // Metodo para validar si los campos están llenos y las contraseñas coinciden
     private boolean validarFormulario() {
         String nombre = editNombre.getText().toString().trim();
         String apellido = editApellido.getText().toString().trim();
@@ -70,12 +70,12 @@ public class ClienteSeleccionadoActivity extends AppCompatActivity {
         String confirmContrasena = editConfirmContrasena.getText().toString().trim();
         String nombresMascotas = editNombresMascotas.getText().toString().trim();
 
-        // Validar que todos los campos tienen contenido
+        // Valida que todos los campos tienen contenido
         if (nombre.isEmpty() || apellido.isEmpty() || telefono.isEmpty() || rut.isEmpty() || contrasena.isEmpty() || confirmContrasena.isEmpty() || nombresMascotas.isEmpty()) {
             return false;
         }
 
-        // Validar que las contraseñas coinciden
+        // Valida que las contraseñas coinciden
         if (!contrasena.equals(confirmContrasena)) {
             Toast.makeText(this, "Las contraseñas no coinciden", Toast.LENGTH_SHORT).show();
             return false;
