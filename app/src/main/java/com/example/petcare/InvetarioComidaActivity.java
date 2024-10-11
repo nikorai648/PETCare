@@ -11,7 +11,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class InventarioComidaActivity extends AppCompatActivity {
+public class InvetarioComidaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +33,7 @@ public class InventarioComidaActivity extends AppCompatActivity {
         btnAgregar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(InventarioComidaActivity.this, OpcionAgregarVeterinariaActivity.class);
+                Intent intent = new Intent(InvetarioComidaActivity.this, OpcionAgregarVeterinariaActivity.class);
                 startActivity(intent);
             }
         });
@@ -42,7 +42,7 @@ public class InventarioComidaActivity extends AppCompatActivity {
         btnModificar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(InventarioComidaActivity.this, OpcionModificarVeterinariaActivity.class);
+                Intent intent = new Intent(InvetarioComidaActivity.this, OpcionModificarVeterinariaActivity.class);
                 startActivity(intent);
             }
         });
@@ -51,7 +51,7 @@ public class InventarioComidaActivity extends AppCompatActivity {
         btnEliminar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(InventarioComidaActivity.this, OpcionEliminarVeterinariaActivity.class);
+                Intent intent = new Intent(InvetarioComidaActivity.this, OpcionEliminarVeterinariaActivity.class);
                 startActivity(intent);
             }
         });
