@@ -58,6 +58,8 @@
     <string name="btn_client2">Cliente2</string>
     <string name="btn_client3">Cliente3</string>
     <string name="btn_client4">Cliente4</string>
+    <string name="open_drawer">Abrir menú</string>
+    <string name="close_drawer">Cerrar menú</string>
 
     <!-- Datos para RegistroClienteparte2Activity -->
     <string name="record_client_title">PETCare</string>
