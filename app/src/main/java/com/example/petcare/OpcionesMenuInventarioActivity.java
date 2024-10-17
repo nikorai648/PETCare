@@ -1,5 +1,6 @@
 package com.example.petcare;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,8 +12,14 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.petcare.InventarioHerramientasActivity;
+import com.example.petcare.InventarioMedicamentosActivity;
+import com.example.petcare.InventarioOtrosProductosActivity;
+import com.example.petcare.InvetarioComidaActivity;
+
 public class OpcionesMenuInventarioActivity extends AppCompatActivity {
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
