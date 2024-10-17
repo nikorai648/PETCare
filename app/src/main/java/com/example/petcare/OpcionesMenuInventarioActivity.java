@@ -3,7 +3,6 @@ package com.example.petcare;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -11,11 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-
-import com.example.petcare.InventarioHerramientasActivity;
-import com.example.petcare.InventarioMedicamentosActivity;
-import com.example.petcare.InventarioOtrosProductosActivity;
-import com.example.petcare.InvetarioComidaActivity;
 
 public class OpcionesMenuInventarioActivity extends AppCompatActivity {
 
@@ -39,39 +33,27 @@ public class OpcionesMenuInventarioActivity extends AppCompatActivity {
         Button btnOtrosProductos = findViewById(R.id.button20);
 
 
-        btnMedicamentos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(OpcionesMenuInventarioActivity.this, InventarioMedicamentosActivity.class);
-                startActivity(intent);
-            }
+        btnMedicamentos.setOnClickListener(v -> {
+            Intent intent = new Intent(OpcionesMenuInventarioActivity.this, InventarioMedicamentosActivity.class);
+            startActivity(intent);
         });
 
 
-        btnHerramientas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(OpcionesMenuInventarioActivity.this, InventarioHerramientasActivity.class);
-                startActivity(intent);
-            }
+        btnHerramientas.setOnClickListener(v -> {
+            Intent intent = new Intent(OpcionesMenuInventarioActivity.this, InventarioHerramientasActivity.class);
+            startActivity(intent);
         });
 
 
-        btnComidaMascotas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(OpcionesMenuInventarioActivity.this, InvetarioComidaActivity.class);
-                startActivity(intent);
-            }
+        btnComidaMascotas.setOnClickListener(v -> {
+            Intent intent = new Intent(OpcionesMenuInventarioActivity.this, InvetarioComidaActivity.class);
+            startActivity(intent);
         });
 
 
-        btnOtrosProductos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(OpcionesMenuInventarioActivity.this, InventarioOtrosProductosActivity.class);
-                startActivity(intent);
-            }
+        btnOtrosProductos.setOnClickListener(v -> {
+            Intent intent = new Intent(OpcionesMenuInventarioActivity.this, InventarioOtrosProductosActivity.class);
+            startActivity(intent);
         });
     }
 }
