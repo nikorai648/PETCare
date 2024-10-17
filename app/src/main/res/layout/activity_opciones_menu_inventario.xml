@@ -15,8 +15,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="80dp"
-        android:textColor="@color/white"
-        android:text="@string/inventory_tittle" />
+        android:text="@string/inventory_tittle"
+        android:textColor="@color/white" />
 
     <TextView
         android:id="@+id/textView31"
@@ -24,46 +24,47 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="120dp"
-        android:textColor="@color/white"
-        android:text="@string/inventory_subtitle" />
-
-    <Button
-        android:id="@+id/button17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:layout_gravity="center_horizontal"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:text="@string/btn_medications" />
-
-    <Button
-        android:id="@+id/button18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:layout_gravity="center_horizontal"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:text="@string/btn_tools" />
-
-    <Button
-        android:id="@+id/button19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:layout_gravity="center_horizontal"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:text="@string/btn_pets_food" />
+        android:text="@string/inventory_subtitle"
+        android:textColor="@color/white" />
 
     <Button
         android:id="@+id/button20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
         android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
         android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:text="@string/btn_other_products" />
+        android:text="@string/btn_other_products"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/btn_medications"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/btn_tools"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/btn_pets_food"
+        android:textColor="@color/black" />
+
 </LinearLayout>
