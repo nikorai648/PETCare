@@ -80,6 +80,16 @@
     <string name="btn_pets_food">Comida Mascotas</string>
     <string name="btn_other_products">Otros Productos</string>
 
+    <!-- Strings para el DrawerLayout (Menú lateral) -->
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+
+    <!-- Información adicional o botones dentro del menú lateral -->
+    <string name="medicines_info">Información de medicamentos</string>
+    <string name="tools_info">Información de herramientas</string>
+    <string name="food_info">Información de comida para mascotas</string>
+    <string name="other_products_info">Información de otros productos</string>
+
     <!-- Datos para la opción llamado a clientes -->
     <string name="call_client_title">PETCare</string>
     <string name="call_client_subtitle">Opción llamado a Clientes</string>

@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
     <item
         android:id="@+id/nav_medicamentos"
-        android:title="Medicamentos"
-        android:icon="@android:drawable/ic_menu_info_details" />
-
+        android:title="@string/btn_medications"
+        android:icon="@drawable/ic_medicamentos"/>
     <item
         android:id="@+id/nav_herramientas"
-        android:title="Herramientas"
-        android:icon="@android:drawable/ic_menu_manage" />
-
+        android:title="@string/btn_tools"
+        android:icon="@drawable/ic_herramientas"/>
     <item
         android:id="@+id/nav_comida_mascotas"
-        android:title="Comida Mascotas"
-        android:icon="@android:drawable/ic_menu_agenda" />
-
+        android:title="@string/btn_pets_food"
+        android:icon="@drawable/ic_comida"/>
     <item
         android:id="@+id/nav_otros_productos"
-        android:title="Otros Productos"
-        android:icon="@android:drawable/ic_menu_sort_by_size" />
-
+        android:title="@string/btn_other_products"
+        android:icon="@drawable/ic_otros_productos"/>
 </menu>
+
+
+
