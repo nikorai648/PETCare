@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@id/nav_record_clients"
+        android:title="Ver Registro de Clientes"
+        android:icon="@drawable/ic_clients" />
+    <item
+        android:id="@id/nav_state_pets"
+        android:title="Estados Actuales de Mascotas"
+        android:icon="@drawable/ic_pets" />
+    <item
+        android:id="@id/nav_inventory_vet"
+        android:title="Ver Inventario de Veterinaria"
+        android:icon="@drawable/ic_inventory" />
+    <item
+        android:id="@id/nav_call_clients"
+        android:title="Llamado para Clientes"
+        android:icon="@drawable/ic_call" />
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_inventory_vet" type="id" />
+    <item name="nav_state_pets" type="id" />
+    <item name="nav_record_clients" type="id" />
+    <item name="nav_call_clients" type="id" />
+</resources>
