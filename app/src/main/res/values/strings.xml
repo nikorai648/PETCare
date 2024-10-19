@@ -1,4 +1,19 @@
 <resources>
+
+    <!-- datos del login -->
+    <string name="app_name_login">PETCare</string>
+    <string name="login_title">PETCare</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="employee_checkbox">Empleado</string>
+    <string name="client_checkbox">Cliente</string>
+    <string name="login_button">Login</string>
+    <string name="register_prompt">No tienes una cuenta? </string>
+    <string name="register_link">Regístrate.</string>
+    <string name="select_client_or_employee">Selecciona Cliente o Empleado</string>
+
+
     <string name="app_name">PETCare</string>
     <string name="select_usertype">Seleccionar el tipo de usuario en la aplicación</string>
     <string name="btn_employee">Empleado</string>
