@@ -1,38 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:background="#4CAF50"
-    android:padding="16dp"
-    tools:context=".OpcionLLamadoClienteActivity">
+    android:background="#4CAF50">
 
     <TextView
-        android:id="@+id/textView39"
+        android:id="@+id/textView23"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="80dp"
+        android:textColor="@color/white"
+        android:text="@string/client_menu_tittle" />
+
+    <TextView
+        android:id="@+id/textView89"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="120dp"
         android:textColor="@color/white"
-        android:text="@string/call_client_title"
-        android:textSize="24sp" />
+        android:text="@string/options_menu_clients" />
 
-    <TextView
-        android:id="@+id/textView40"
+    <Button
+        android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/white"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="16dp"
-        android:textColor="@color/white"
-        android:text="@string/call_client_subtitle"
-        android:textSize="18sp" />
+        android:text="@string/btn_request_opening_hours"
+        android:textColor="@color/black" />
 
-    <!-- ListView para mostrar la lista de clientes -->
-    <ListView
-        android:id="@+id/listViewClientes"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:divider="@android:color/darker_gray"
-        android:dividerHeight="1dp" />
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btn_check_date_operation_hours"
+        android:textColor="@color/black" />
+
+    <Button
+    android:id="@+id/button9"
+    android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btn_order_product"
+        android:textColor="@color/black" />
+
 </LinearLayout>
+
+
