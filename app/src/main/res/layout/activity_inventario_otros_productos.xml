@@ -16,7 +16,7 @@
         android:layout_gravity="center_horizontal"
         android:textColor="@color/white"
         android:layout_marginBottom="80dp"
-        android:text="@string/inventory_other_products_title" /> <!-- Usando el string del título -->
+        android:text="@string/inventory_other_products_title" />
 
     <TextView
         android:id="@+id/textView88"
@@ -25,7 +25,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="30dp"
         android:textColor="@color/white"
-        android:text="@string/inventory_other_products_subtitle" /> <!-- Usando el string del subtítulo -->
+        android:text="@string/inventory_other_products_subtitle" />
 
     <!-- Tabla de Inventario de Otros Productos -->
     <TableLayout
@@ -33,110 +33,129 @@
         android:layout_height="wrap_content"
         android:stretchColumns="1">
 
-        <!-- Fila 1: Otros Productos -->
+        <!-- Fila de Títulos: Producto, Cantidad, Estado -->
         <TableRow>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="@string/other_products"
+                android:text="Producto"
                 android:textStyle="bold"
                 android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Cantidad"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Estado"
+                android:textStyle="bold"
+                android:gravity="center" />
+        </TableRow>
+
+        <!-- Fila 1: Producto 1 (Camas) -->
+        <TableRow>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
                 android:text="@string/beds"
                 android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/good_condition"
+                android:gravity="center" />
+        </TableRow>
+
+        <!-- Fila 2: Producto 2 (Juguetes) -->
+        <TableRow>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
                 android:text="@string/toys"
                 android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/good_condition"
+                android:gravity="center" />
+        </TableRow>
+
+        <!-- Fila 3: Producto 3 (Collares) -->
+        <TableRow>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
                 android:text="@string/collars"
                 android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/good_condition"
+                android:gravity="center" />
+        </TableRow>
+
+        <!-- Fila 4: Producto 4 (Jaulas) -->
+        <TableRow>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
                 android:text="@string/cages"
                 android:gravity="center" />
-        </TableRow>
 
-        <!-- Fila 2: Cantidad de Productos -->
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="@string/quantity"
-                android:textStyle="bold"
-                android:gravity="center" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
                 android:text="5"
                 android:gravity="center" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="5"
-                android:gravity="center" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="5"
-                android:gravity="center" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="5"
+                android:text="@string/good_condition"
                 android:gravity="center" />
         </TableRow>
 
-        <!-- Fila 3: Estado de Productos -->
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="@string/state"
-                android:textStyle="bold"
-                android:gravity="center" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="@string/good_condition"
-                android:gravity="center" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="@string/good_condition"
-                android:gravity="center" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="@string/good_condition"
-                android:gravity="center" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="@string/good_condition"
-                android:gravity="center" />
-        </TableRow>
     </TableLayout>
 
     <Space
