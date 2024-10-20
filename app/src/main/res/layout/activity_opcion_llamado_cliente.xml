@@ -1,80 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#4CAF50"
+    android:padding="16dp"
     tools:context=".OpcionLLamadoClienteActivity">
 
     <TextView
         android:id="@+id/textView39"
-        android:layout_width="87dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="16dp"
         android:textColor="@color/white"
-        android:text="@string/call_client_title" />
+        android:text="@string/call_client_title"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textView40"
-        android:layout_width="169dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="16dp"
         android:textColor="@color/white"
-        android:text="@string/call_client_subtitle" />
+        android:text="@string/call_client_subtitle"
+        android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView43"
-        android:layout_width="69dp"
+    <!-- ListView para mostrar la lista de clientes -->
+    <ListView
+        android:id="@+id/listViewClientes"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:textColor="@color/white"
-        android:text="@string/client1_label" />
-
-    <Button
-        android:id="@+id/button21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:text="@string/btn_call_client1" />
-
-    <TextView
-        android:id="@+id/textView44"
-        android:layout_width="69dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:textColor="@color/white"
-        android:text="@string/client2_label" />
-
-    <Button
-        android:id="@+id/button22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:text="@string/btn_call_client2" />
-
-    <TextView
-        android:id="@+id/textView45"
-        android:layout_width="72dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:textColor="@color/white"
-        android:text="@string/client3_label" />
-
-    <Button
-        android:id="@+id/button23"
-        android:layout_width="wrap_content"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_call_client3" />
-
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
 </LinearLayout>
