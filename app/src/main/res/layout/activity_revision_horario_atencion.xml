@@ -36,28 +36,34 @@
         android:textColor="@color/white"
         android:text="@string/name_client1" />
 
+    <!-- Campo de fecha con una etiqueta (hint) para accesibilidad -->
     <EditText
         android:id="@+id/editTextDate"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:ems="10"
         android:layout_marginTop="60dp"
-        android:inputType="date" />
+        android:inputType="date"
+        android:hint="@string/hint_date" /> <!-- Etiqueta de ayuda para accesibilidad -->
 
+    <!-- Otro campo de fecha con etiqueta -->
     <EditText
         android:id="@+id/editTextDate2"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:ems="10"
         android:layout_marginTop="60dp"
-        android:inputType="date" />
+        android:inputType="date"
+        android:hint="@string/hint_date_end" /> <!-- Etiqueta de ayuda para accesibilidad -->
 
+    <!-- Campo de hora con etiqueta -->
     <EditText
         android:id="@+id/editTextTime"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:ems="10"
         android:layout_marginTop="60dp"
-        android:inputType="time" />
+        android:inputType="time"
+        android:hint="@string/hint_time" /> <!-- Etiqueta de ayuda para accesibilidad -->
 
 </LinearLayout>

@@ -137,6 +137,9 @@
     <string name="revision_title">PETCare</string>
     <string name="revision_subtitle">Revisión horario de atención</string>
     <string name="name_client1">Nombre cliente 1</string>
+    <string name="hint_date">Seleccionar fecha de inicio</string>
+    <string name="hint_date_end">Seleccionar fecha de fin</string>
+    <string name="hint_time">Seleccionar hora</string>
 
     <!-- Strings para la opción ordenar producto -->
     <string name="order_product_title">PETCare</string>

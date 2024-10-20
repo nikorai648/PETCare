@@ -1,69 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#4CAF50"
     tools:context=".RegistroClienteparte1Activity">
 
+    <!-- Título -->
     <TextView
         android:id="@+id/textView26"
-        android:layout_width="87dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="20dp"
         android:textColor="@color/white"
-        android:text="@string/record_client_part1_tittle" />
+        android:text="@string/record_client_part1_tittle"
+        android:textSize="24sp" />
 
+    <!-- Subtítulo -->
     <TextView
         android:id="@+id/textView27"
-        android:layout_width="169dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="20dp"
         android:textColor="@color/white"
-        android:text="@string/record_client_menu" />
+        android:text="@string/record_client_menu"
+        android:textSize="18sp" />
 
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="wrap_content"
+    <!-- ListView para los botones de cliente -->
+    <ListView
+        android:id="@+id/listViewClients"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:layout_gravity="center_horizontal"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:text="@string/btn_client1" />
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:padding="16dp" />
 
-    <Button
-        android:id="@+id/button14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:layout_gravity="center_horizontal"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:text="@string/btn_client2" />
-
-    <Button
-        android:id="@+id/button15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:layout_gravity="center_horizontal"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:text="@string/btn_client3" />
-
-    <Button
-        android:id="@+id/button16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:layout_gravity="center_horizontal"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:text="@string/btn_client4" />
 </LinearLayout>
