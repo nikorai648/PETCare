@@ -285,5 +285,9 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="open" />
     <string name="close" />
+    <string name="llamado_para_clientes">Llamado para Clientes</string>
+    <string name="ver_inventario_de_veterinaria">Ver Inventario de Veterinaria</string>
+    <string name="ver_registro_de_clientes">Ver Registro de Clientes</string>
+    <string name="estados_actuales_de_mascotas">Estados Actuales de Mascotas</string>
 
 </resources>

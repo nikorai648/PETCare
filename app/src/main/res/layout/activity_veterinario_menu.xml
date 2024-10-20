@@ -46,6 +46,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:menu="@menu/menu_lateral_veterinario"
-        app:headerLayout="@layout/nav_header_veterinario" />
+        app:headerLayout="@layout/nav_header_veterinario"
+        tools:ignore="VisualLintBounds" />
 
 </androidx.drawerlayout.widget.DrawerLayout>
