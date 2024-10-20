@@ -4,4 +4,6 @@
     <item name="nav_state_pets" type="id" />
     <item name="nav_record_clients" type="id" />
     <item name="nav_call_clients" type="id" />
+    <item name="button4" type="id" />
+    <item name="button3" type="id" />
 </resources>

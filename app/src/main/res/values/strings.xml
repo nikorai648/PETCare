@@ -53,6 +53,11 @@
     <string name="btn_state_pets">Estados Actuales de Mascotas</string>
     <string name="btn_inventory_vet">Ver Inventario de Veterinaria</string>
     <string name="btn_call_clients">Llamado para Clientes</string>
+    <string name="inventory_tittle_submenu">Inventario</string>
+    <string name="btn_medications_submeny">Medicamentos</string>
+    <string name="btn_tools_submenu">Herramientas</string>
+    <string name="btn_pets_food_submenu">Comida Mascotas</string>
+    <string name="btn_other_products_submenu">Otros Productos</string>
 
 
 
