@@ -16,22 +16,16 @@ public class VeterinarioMenuActivity extends AppCompatActivity {
 
         // Botón "Ver Registro de Clientes"
         Button btnVerRegistroClientes = findViewById(R.id.button3);
-        btnVerRegistroClientes.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(VeterinarioMenuActivity.this, RegistroClienteparte1Activity.class);
-                startActivity(intent);
-            }
+        btnVerRegistroClientes.setOnClickListener(v -> {
+            Intent intent = new Intent(VeterinarioMenuActivity.this, RegistroClienteparte1Activity.class);
+            startActivity(intent);
         });
 
         // Botón "Estados Actuales de Mascotas"
         Button btnEstadoMascotas = findViewById(R.id.button4);
-        btnEstadoMascotas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(VeterinarioMenuActivity.this, RegistroClienteparte2Activity.class);
-                startActivity(intent);
-            }
+        btnEstadoMascotas.setOnClickListener(v -> {
+            Intent intent = new Intent(VeterinarioMenuActivity.this, RegistroClienteparte2Activity.class);
+            startActivity(intent);
         });
 
         // Botón "Ver Inventario de Veterinaria" ya no es necesario porque el submenú ya está aquí
@@ -43,36 +37,24 @@ public class VeterinarioMenuActivity extends AppCompatActivity {
         Button btnOtrosProductos = findViewById(R.id.button20);
 
         // Navegación dentro del submenú de inventario
-        btnMedicamentos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(VeterinarioMenuActivity.this, InventarioMedicamentosActivity.class);
-                startActivity(intent);
-            }
+        btnMedicamentos.setOnClickListener(v -> {
+            Intent intent = new Intent(VeterinarioMenuActivity.this, InventarioMedicamentosActivity.class);
+            startActivity(intent);
         });
 
-        btnHerramientas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(VeterinarioMenuActivity.this, InventarioHerramientasActivity.class);
-                startActivity(intent);
-            }
+        btnHerramientas.setOnClickListener(v -> {
+            Intent intent = new Intent(VeterinarioMenuActivity.this, InventarioHerramientasActivity.class);
+            startActivity(intent);
         });
 
-        btnComidaMascotas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(VeterinarioMenuActivity.this, InvetarioComidaActivity.class);
-                startActivity(intent);
-            }
+        btnComidaMascotas.setOnClickListener(v -> {
+            Intent intent = new Intent(VeterinarioMenuActivity.this, InvetarioComidaActivity.class);
+            startActivity(intent);
         });
 
-        btnOtrosProductos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(VeterinarioMenuActivity.this, InventarioOtrosProductosActivity.class);
-                startActivity(intent);
-            }
+        btnOtrosProductos.setOnClickListener(v -> {
+            Intent intent = new Intent(VeterinarioMenuActivity.this, InventarioOtrosProductosActivity.class);
+            startActivity(intent);
         });
     }
 }
