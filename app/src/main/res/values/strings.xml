@@ -67,6 +67,8 @@
     <string name="btn_request_opening_hours"> Solicitar horario de atención</string>
     <string name="btn_check_date_operation_hours"> Revisar fecha y horario de atención</string>
     <string name="btn_order_product"> Ordenar Producto</string>
+    <string name="navigation_drawer_client_open">Abrir menú</string>
+    <string name="navigation_drawer_client_close">Cerrar menú</string>
 
     <!-- Datos para el pagoclienteActivity -->
     <string name="pay_options_tittle">PETCare</string>
