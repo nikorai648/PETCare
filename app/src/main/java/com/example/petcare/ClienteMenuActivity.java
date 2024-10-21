@@ -54,7 +54,7 @@ public abstract class ClienteMenuActivity extends AppCompatActivity implements N
         } else if (item.getItemId() == checkDateOperationHoursId) {
             fragment = new RevisionHorarioAtencionFragment();
         } else if (item.getItemId() == orderProductId) {
-            fragment = new OpcionOrdenarProductoFragment();
+            fragment = new OpcionOrdenarVeterinariaFragment();
         }
 
         if (fragment != null) {
