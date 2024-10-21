@@ -30,6 +30,11 @@ public class MainActivity extends AppCompatActivity {
                     .replace(R.id.fragment_container, new OpcionOrdenarVeterinariaFragment())
                     .addToBackStack(null) // Para permitir volver al anterior
                     .commit();
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container, new RevisionHorarioAtencionFragment())
+                    .addToBackStack(null) // Para permitir volver al anterior
+                    .commit();
+
         });
     }
 }
