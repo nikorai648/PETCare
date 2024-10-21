@@ -2,6 +2,9 @@ package com.example.petcare;
 
 
 
+import static com.example.petcare.R.id.nav_record_clients;
+import static com.example.petcare.R.id.nav_state_pets;
+
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -36,7 +39,7 @@ public class VeterinarioMenuActivity extends AppCompatActivity implements Naviga
 
         // Si se desea que una actividad se cargue por defecto
         if (savedInstanceState == null) {
-            navigationView.setCheckedItem(R.id.nav_record_clients);  // Usamos la constante de R.id directamente
+            navigationView.setCheckedItem(nav_record_clients);  // Usamos la constante de R.id directamente
         }
     }
 
@@ -49,7 +52,7 @@ public class VeterinarioMenuActivity extends AppCompatActivity implements Naviga
             case R.id.nav_record_clients:
                 startActivity(new Intent(VeterinarioMenuActivity.this, RegistroClienteparte1Activity.class));
                 break;
-            case R.id.nav_state_pets:
+            case  R.id.nav_state_pets:
                 startActivity(new Intent(VeterinarioMenuActivity.this, RegistroClienteparte2Activity.class));
                 break;
             case R.id.nav_inventory_vet:
