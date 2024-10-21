@@ -40,26 +40,8 @@
             android:textSize="18sp" />
 
         <!-- Botón Ver Registro de Clientes -->
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="16dp"
-            android:backgroundTint="@color/white"
-            android:textColor="@color/black"
-            android:text="@string/btn_record_clients" />
 
         <!-- Botón Estados Actuales de Mascotas -->
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="16dp"
-            android:backgroundTint="@color/white"
-            android:textColor="@color/black"
-            android:text="@string/btn_state_pets" />
 
         <!-- Submenú de opciones del inventario -->
         <TextView
