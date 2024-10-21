@@ -1,70 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    tools:context=".ClienteMenuActivity">
 
-    <!-- Contenido principal de la actividad -->
-    <LinearLayout
-        android:id="@+id/main_content"
+    <!-- El contenedor principal para el fragmento -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="16dp"
-        android:background="#4CAF50">
-
-        <!-- Título PETCare -->
-        <TextView
-            android:id="@+id/textView23"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="80dp"
-            android:textColor="@color/white"
-            android:text="@string/client_menu_tittle" />
-
-        <!-- Opciones del menú de clientes -->
-        <TextView
-            android:id="@+id/textView89"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="120dp"
-            android:textColor="@color/white"
-            android:text="@string/options_menu_clients" />
-
-        <!-- Botones de acciones -->
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
-            android:backgroundTint="@color/white"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/btn_request_opening_hours"
-            android:textColor="@color/black" />
-
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
-            android:backgroundTint="@color/white"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/btn_check_date_operation_hours"
-            android:textColor="@color/black" />
-
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="173dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
-            android:backgroundTint="@color/white"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/btn_order_product"
-            android:textColor="@color/black" />
-    </LinearLayout>
+        android:layout_height="match_parent" />
 
     <!-- Menú lateral (NavigationView) -->
     <com.google.android.material.navigation.NavigationView
@@ -73,7 +20,6 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:menu="@menu/menu_lateral_cliente"
-        android:fitsSystemWindows="true" />
-
+        app:headerLayout="@layout/nav_header_cliente"
+        tools:ignore="VisualLintBounds" />
 </androidx.drawerlayout.widget.DrawerLayout>
-
