@@ -114,6 +114,8 @@
     <string name="food_info">Información de comida para mascotas</string>
     <string name="other_products_info">Información de otros productos</string>
 
+
+
     <!-- Datos para la opción llamado a clientes -->
     <string name="call_client_title">PETCare</string>
     <string name="call_client_subtitle">Opción llamado a Clientes</string>

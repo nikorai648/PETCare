@@ -82,6 +82,8 @@
             android:theme="@style/Theme.PETCare" />
 
 
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

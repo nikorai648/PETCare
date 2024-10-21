@@ -1,60 +1,86 @@
 package com.example.petcare;
 
+
+
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+import androidx.annotation.NonNull;
 
+import com.google.android.material.navigation.NavigationView;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import android.view.MenuItem;
+import android.view.View;
 
-public class VeterinarioMenuActivity extends AppCompatActivity {
+public class VeterinarioMenuActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+
+    private DrawerLayout drawer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_veterinario_menu);
 
-        // Botón "Ver Registro de Clientes"
-        Button btnVerRegistroClientes = findViewById(R.id.button3);
-        btnVerRegistroClientes.setOnClickListener(v -> {
-            Intent intent = new Intent(VeterinarioMenuActivity.this, RegistroClienteparte1Activity.class);
-            startActivity(intent);
-        });
+        // Configuración del DrawerLayout y NavigationView
+        drawer = findViewById(R.id.drawer_layout);
+        NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
 
-        // Botón "Estados Actuales de Mascotas"
-        Button btnEstadoMascotas = findViewById(R.id.button4);
-        btnEstadoMascotas.setOnClickListener(v -> {
-            Intent intent = new Intent(VeterinarioMenuActivity.this, RegistroClienteparte2Activity.class);
-            startActivity(intent);
-        });
+        // Toggle para el menú lateral
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.addDrawerListener(toggle);
+        toggle.syncState();
 
-        // Botón "Ver Inventario de Veterinaria" ya no es necesario porque el submenú ya está aquí
+        // Si se desea que una actividad se cargue por defecto
+        if (savedInstanceState == null) {
+            navigationView.setCheckedItem(R.id.nav_record_clients);  // Usamos la constante de R.id directamente
+        }
+    }
 
-        // Botones del submenú de inventario
-        Button btnMedicamentos = findViewById(R.id.button17);
-        Button btnHerramientas = findViewById(R.id.button18);
-        Button btnComidaMascotas = findViewById(R.id.button19);
-        Button btnOtrosProductos = findViewById(R.id.button20);
+    @SuppressLint("NonConstantResourceId")
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-        // Navegación dentro del submenú de inventario
-        btnMedicamentos.setOnClickListener(v -> {
-            Intent intent = new Intent(VeterinarioMenuActivity.this, InventarioMedicamentosActivity.class);
-            startActivity(intent);
-        });
+        // Manejo del menú lateral
+        switch (item.getItemId()) {
+            case R.id.nav_record_clients:
+                startActivity(new Intent(VeterinarioMenuActivity.this, RegistroClienteparte1Activity.class));
+                break;
+            case R.id.nav_state_pets:
+                startActivity(new Intent(VeterinarioMenuActivity.this, RegistroClienteparte2Activity.class));
+                break;
+            case R.id.nav_inventory_vet:
+                mostrarSubmenuInventario();  // Mostrar el submenú de inventario
+                break;
+            case R.id.nav_call_clients:
+                startActivity(new Intent(VeterinarioMenuActivity.this, OpcionLLamadoClienteActivity.class));
+                break;
 
-        btnHerramientas.setOnClickListener(v -> {
-            Intent intent = new Intent(VeterinarioMenuActivity.this, InventarioHerramientasActivity.class);
-            startActivity(intent);
-        });
+        }
 
-        btnComidaMascotas.setOnClickListener(v -> {
-            Intent intent = new Intent(VeterinarioMenuActivity.this, InvetarioComidaActivity.class);
-            startActivity(intent);
-        });
+        // Cerrar el Drawer después de la selección
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
+    }
 
-        btnOtrosProductos.setOnClickListener(v -> {
-            Intent intent = new Intent(VeterinarioMenuActivity.this, InventarioOtrosProductosActivity.class);
-            startActivity(intent);
-        });
+    @Override
+    public void onBackPressed() {
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+    // Método para mostrar el submenú de inventario
+    private void mostrarSubmenuInventario() {
+        findViewById(R.id.submenu_inventario_title).setVisibility(View.VISIBLE);
+        findViewById(R.id.button17).setVisibility(View.VISIBLE);  // Medicamentos
+        findViewById(R.id.button18).setVisibility(View.VISIBLE);  // Herramientas
+        findViewById(R.id.button19).setVisibility(View.VISIBLE);  // Comida Mascotas
+        findViewById(R.id.button20).setVisibility(View.VISIBLE);  // Otros Productos
     }
 }

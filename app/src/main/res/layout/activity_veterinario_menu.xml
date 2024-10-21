@@ -9,13 +9,15 @@
     tools:context=".VeterinarioMenuActivity">
 
     <!-- Contenido principal de la actividad -->
+
+    <!-- Menú lateral (NavigationView) -->
     <LinearLayout
         android:id="@+id/main_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#4CAF50"
         android:orientation="vertical"
-        android:padding="16dp"
-        android:background="#4CAF50">
+        android:padding="16dp">
 
         <!-- Título PETCare -->
         <TextView
@@ -39,9 +41,6 @@
             android:textColor="#263238"
             android:textSize="18sp" />
 
-        <!-- Botón Ver Registro de Clientes -->
-
-        <!-- Botón Estados Actuales de Mascotas -->
 
         <!-- Submenú de opciones del inventario -->
         <TextView
@@ -53,6 +52,7 @@
             android:layout_marginBottom="8dp"
             android:text="@string/inventory_tittle"
             android:textColor="#0D47A1"
+            android:visibility="gone"
             android:textSize="20sp" />
 
         <!-- Botones del submenú de inventario -->
@@ -63,8 +63,9 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="16dp"
             android:backgroundTint="@color/white"
-            android:textColor="@color/black"
-            android:text="@string/btn_medications" />
+            android:text="@string/btn_medications"
+            android:visibility="gone"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button18"
@@ -73,8 +74,9 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="16dp"
             android:backgroundTint="@color/white"
-            android:textColor="@color/black"
-            android:text="@string/btn_tools" />
+            android:text="@string/btn_tools"
+            android:visibility="gone"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button19"
@@ -83,8 +85,9 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="16dp"
             android:backgroundTint="@color/white"
-            android:textColor="@color/black"
-            android:text="@string/btn_pets_food" />
+            android:text="@string/btn_pets_food"
+            android:visibility="gone"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button20"
@@ -92,12 +95,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:backgroundTint="@color/white"
-            android:textColor="@color/black"
-            android:text="@string/btn_other_products" />
+            android:visibility="gone"
+            android:text="@string/btn_other_products"
+            android:textColor="@color/black" />
 
     </LinearLayout>
 
-    <!-- Menú lateral (NavigationView) -->
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
