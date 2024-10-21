@@ -40,6 +40,11 @@ public class MainActivity extends AppCompatActivity {
                     .addToBackStack(null) // Para permitir volver al anterior
                     .commit();
 
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container, new OpcionesPagoClienteFragment())
+                    .addToBackStack(null) // Para permitir volver al anterior
+                    .commit();
+
         });
     }
 }

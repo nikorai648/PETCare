@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4CAF50"
+    tools:context=".OpcionesPagoClienteFragment">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="80dp"
+        android:textColor="@color/white"
+        android:text="@string/pay_options_tittle" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="120dp"
+        android:textColor="@color/white"
+        android:text="@string/pay_options_client" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:text="@string/btn_first_option" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:text="@string/btn_second_option" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:text="@string/btn_third_option" />
+</LinearLayout>
