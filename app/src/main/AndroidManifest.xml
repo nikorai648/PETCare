@@ -54,9 +54,7 @@
             android:name=".InventarioMedicamentosActivity"
             android:exported="false"
             android:theme="@style/Theme.PETCare" />
-        <activity
-            android:name=".OpcionesMenuInventarioActivity"
-            android:exported="false" />
+
         <activity
             android:name=".RegistroClienteparte2Activity"
             android:exported="false" />
@@ -82,33 +80,8 @@
             android:name=".ClienteSeleccionadoActivity"
             android:exported="false"
             android:theme="@style/Theme.PETCare" />
-        <activity
-            android:name=".ClienetSeleccionadoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ClienteSeleccioadoActivity"
-            android:exported="false"
-            android:theme="@style/Theme.PETCare" />
-        <activity
-            android:name=".ClienteActivity"
-            android:exported="false"
-            android:theme="@style/Theme.PETCare" />
-        <activity
-            android:name=".RegistroClientesActivity"
-            android:exported="false"
-            android:theme="@style/Theme.PETCare" />
-        <activity
-            android:name=".OpcionesClienteActivity"
-            android:exported="false"
-            android:theme="@style/Theme.PETCare" />
-        <activity
-            android:name=".OpcionesVeterinarioActivity"
-            android:exported="false"
-            android:theme="@style/Theme.PETCare" />
-        <activity
-            android:name=".VerClientesActivity"
-            android:exported="false"
-            android:theme="@style/Theme.PETCare" />
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
