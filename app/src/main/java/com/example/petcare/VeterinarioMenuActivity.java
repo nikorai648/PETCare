@@ -1,24 +1,19 @@
 package com.example.petcare;
 
-
-
-import static com.example.petcare.R.id.nav_record_clients;
-import static com.example.petcare.R.id.nav_state_pets;
-
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
+import android.view.MenuItem;
+import android.view.View;
 
-import com.google.android.material.navigation.NavigationView;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-import android.view.MenuItem;
-import android.view.View;
 
-public class VeterinarioMenuActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+import com.google.android.material.navigation.NavigationView;
+
+public abstract class VeterinarioMenuActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout drawer;
 
@@ -37,31 +32,28 @@ public class VeterinarioMenuActivity extends AppCompatActivity implements Naviga
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        // Si se desea que una actividad se cargue por defecto
+        // Opción seleccionada por defecto
         if (savedInstanceState == null) {
-            navigationView.setCheckedItem(nav_record_clients);  // Usamos la constante de R.id directamente
+            navigationView.setCheckedItem(R.id.nav_record_clients);
         }
     }
 
-    @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        // Manejo del menú lateral usando if-else
+        int recordClientsId = R.id.nav_record_clients;
+        int statePetsId = R.id.nav_state_pets;
+        int inventoryVetId = R.id.nav_inventory_vet;
+        int callClientsId = R.id.nav_call_clients;
 
-        // Manejo del menú lateral
-        switch (item.getItemId()) {
-            case R.id.nav_record_clients:
-                startActivity(new Intent(VeterinarioMenuActivity.this, RegistroClienteparte1Activity.class));
-                break;
-            case  R.id.nav_state_pets:
-                startActivity(new Intent(VeterinarioMenuActivity.this, RegistroClienteparte2Activity.class));
-                break;
-            case R.id.nav_inventory_vet:
-                mostrarSubmenuInventario();  // Mostrar el submenú de inventario
-                break;
-            case R.id.nav_call_clients:
-                startActivity(new Intent(VeterinarioMenuActivity.this, OpcionLLamadoClienteActivity.class));
-                break;
-
+        if (item.getItemId() == recordClientsId) {
+            startActivity(new Intent(this, RegistroClienteparte1Activity.class));
+        } else if (item.getItemId() == statePetsId) {
+            startActivity(new Intent(this, RegistroClienteparte2Activity.class));
+        } else if (item.getItemId() == inventoryVetId) {
+            mostrarSubmenuInventario();  // Mostrar el submenú de inventario
+        } else if (item.getItemId() == callClientsId) {
+            startActivity(new Intent(this, OpcionLLamadoClienteActivity.class));
         }
 
         // Cerrar el Drawer después de la selección

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Botón para registrar clientes -->
+    <Button
+        android:id="@+id/button_record_clients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Clientes"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón para estado de mascotas -->
+    <Button
+        android:id="@+id/button_state_pets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado de Mascotas"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón para inventario -->
+    <Button
+        android:id="@+id/button_inventory_vet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inventario"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Submenú de inventario -->
+    <TextView
+        android:id="@+id/submenu_inventario_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submenú de Inventario"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Botón Medicamentos -->
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicamentos"
+        android:visibility="gone"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Botón Herramientas -->
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Herramientas"
+        android:visibility="gone"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Botón Comida Mascotas -->
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comida Mascotas"
+        android:visibility="gone"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Botón Otros Productos -->
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Otros Productos"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón para llamar a clientes -->
+    <Button
+        android:id="@+id/button_call_clients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Llamar a Clientes"/>
+
+</LinearLayout>

@@ -301,5 +301,7 @@
     <string name="ver_inventario_de_veterinaria">Ver Inventario de Veterinaria</string>
     <string name="ver_registro_de_clientes">Ver Registro de Clientes</string>
     <string name="estados_actuales_de_mascotas">Estados Actuales de Mascotas</string>
+    <string name="opciones_del_cliente">Opciones del Cliente</string>
+    <string name="petcare">PETCare</string>
 
 </resources>

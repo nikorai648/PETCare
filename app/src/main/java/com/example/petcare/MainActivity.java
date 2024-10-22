@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,6 +16,11 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnEmpleado = findViewById(R.id.btnEmpleado);
         Button btnCliente = findViewById(R.id.btnCliente);
+
+        // Cargar el fragmento VeterinarioMenuFragment
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.fragment_container, new VeterinarioMenuFragment());
+        transaction.commit();
 
         // código para el botón de Empleado
         btnEmpleado.setOnClickListener(v -> {
@@ -30,21 +36,24 @@ public class MainActivity extends AppCompatActivity {
                     .replace(R.id.fragment_container, new OpcionOrdenarVeterinariaFragment())
                     .addToBackStack(null) // Para permitir volver al anterior
                     .commit();
+
+            // Cargar el fragmento RevisionHorarioAtencionFragment
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragment_container, new RevisionHorarioAtencionFragment())
                     .addToBackStack(null) // Para permitir volver al anterior
                     .commit();
 
+            // Cargar el fragmento SeleccionAtencionHoraFragment
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragment_container, new SeleccionAtencionHoraFragment())
                     .addToBackStack(null) // Para permitir volver al anterior
                     .commit();
 
+            // Cargar el fragmento OpcionesPagoClienteFragment
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragment_container, new OpcionesPagoClienteFragment())
                     .addToBackStack(null) // Para permitir volver al anterior
                     .commit();
-
         });
     }
 }
