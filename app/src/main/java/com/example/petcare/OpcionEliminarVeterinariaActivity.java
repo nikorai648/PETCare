@@ -17,7 +17,7 @@ public class OpcionEliminarVeterinariaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_opcion_eliminar_veterinaria);
+        setContentView(R.layout.fragment_opcion_eliminar_veterinaria);
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
