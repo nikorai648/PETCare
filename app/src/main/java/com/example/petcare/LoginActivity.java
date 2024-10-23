@@ -29,16 +29,19 @@ public class LoginActivity extends AppCompatActivity {
         Button btnLogin = findViewById(R.id.btnLogin);
         TextView registerLink = findViewById(R.id.registerLink);
 
-        // Acción del botón Login
         btnLogin.setOnClickListener(v -> {
             if (checkBoxCliente.isChecked()) {
-                // Si el checkbox de cliente está seleccionado
-                Intent intent = new Intent(LoginActivity.this, ClienteMenuFragment.class);
-                startActivity(intent);
+                // Si el checkbox de cliente está seleccionado, mostrar ClienteMenuFragment
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragment_container, new ClienteMenuFragment())
+                        .addToBackStack(null)
+                        .commit();
             } else if (checkBoxEmpleado.isChecked()) {
-                // Si el checkbox de empleado está seleccionado
-                Intent intent = new Intent(LoginActivity.this, VeterinarioMenuFragment.class);
-                startActivity(intent);
+                // Si el checkbox de empleado está seleccionado, mostrar VeterinarioMenuFragment
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragment_container, new VeterinarioMenuFragment())
+                        .addToBackStack(null)
+                        .commit();
             } else {
                 Toast.makeText(LoginActivity.this, "Selecciona Cliente o Empleado", Toast.LENGTH_SHORT).show();
             }
