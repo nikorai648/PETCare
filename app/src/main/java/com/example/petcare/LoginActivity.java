@@ -2,7 +2,6 @@ package com.example.petcare;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -34,11 +33,11 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(v -> {
             if (checkBoxCliente.isChecked()) {
                 // Si el checkbox de cliente está seleccionado
-                Intent intent = new Intent(LoginActivity.this, ClienteMenuActivity.class);
+                Intent intent = new Intent(LoginActivity.this, ClienteMenuFragment.class);
                 startActivity(intent);
             } else if (checkBoxEmpleado.isChecked()) {
                 // Si el checkbox de empleado está seleccionado
-                Intent intent = new Intent(LoginActivity.this, VeterinarioMenuActivity.class);
+                Intent intent = new Intent(LoginActivity.this, VeterinarioMenuFragment.class);
                 startActivity(intent);
             } else {
                 Toast.makeText(LoginActivity.this, "Selecciona Cliente o Empleado", Toast.LENGTH_SHORT).show();
