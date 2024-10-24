@@ -29,6 +29,20 @@ public class LoginActivity extends AppCompatActivity {
         Button btnLogin = findViewById(R.id.btnLogin);
         TextView registerLink = findViewById(R.id.registerLink);
 
+        // Listeners para los checkbox
+        checkBoxEmpleado.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked) {
+                checkBoxCliente.setChecked(false);
+            }
+        });
+
+        checkBoxCliente.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked) {
+                checkBoxEmpleado.setChecked(false);
+            }
+        });
+
+        // Acción del botón de Login
         btnLogin.setOnClickListener(v -> {
             if (checkBoxCliente.isChecked()) {
                 // Si el checkbox de cliente está seleccionado, mostrar ClienteMenuFragment
