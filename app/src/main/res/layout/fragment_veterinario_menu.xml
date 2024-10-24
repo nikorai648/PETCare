@@ -16,7 +16,7 @@
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
         android:visibility="gone"
-        android:text="Registrar Clientes"
+        android:text="@string/btn_record_clients"
         android:layout_marginBottom="16dp"/>
 
     <!-- Botón para estado de mascotas -->
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="Estado de Mascotas"
+        android:text="@string/btn_state_pets"
         android:layout_marginBottom="16dp"/>
 
     <!-- Botón para inventario -->
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="Inventario"
+        android:text="@string/btn_inventory_vet"
         android:layout_marginBottom="16dp"/>
 
     <!-- Submenú de inventario -->
@@ -44,7 +44,7 @@
         android:id="@+id/submenu_inventario_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Submenú de Inventario"
+        android:text="@string/tittle_PETCare_submenu"
         android:textStyle="bold"
         android:visibility="gone"
         android:layout_marginBottom="8dp"/>
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="Medicamentos"
+        android:text="@string/btn_medications_submenu"
         android:visibility="gone"
         android:layout_marginBottom="8dp"/>
 
@@ -65,7 +65,7 @@
         android:id="@+id/button18"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Herramientas"
+        android:text="@string/btn_tools_submenu"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
         android:visibility="gone"
@@ -78,7 +78,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
-        android:text="Comida Mascotas"
+        android:text="@string/btn_pets_food_submenu"
         android:visibility="gone"
         android:layout_marginBottom="8dp"/>
 
@@ -89,7 +89,7 @@
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
         android:layout_height="wrap_content"
-        android:text="Otros Productos"
+        android:text="@string/btn_other_products_submenu"
         android:visibility="gone"
         android:layout_marginBottom="16dp"/>
 
@@ -100,6 +100,6 @@
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
         android:layout_height="wrap_content"
-        android:text="Llamar a Clientes"/>
+        android:text="@string/btn_call_clients"/>
 
 </LinearLayout>
