@@ -6,11 +6,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -23,15 +19,7 @@ public class EmpleadoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_empleado);
-
-        // Ajuste de los insets
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+        setContentView(R.layout.activity_empleado);  // Cambié la disposición para evitar conflictos con EdgeToEdge.
 
         // Los campos del formulario
         editNombre = findViewById(R.id.editTextText2);         // Nombre
@@ -95,4 +83,3 @@ public class EmpleadoActivity extends AppCompatActivity {
         fragmentTransaction.commit(); // Realizar la transacción
     }
 }
-
