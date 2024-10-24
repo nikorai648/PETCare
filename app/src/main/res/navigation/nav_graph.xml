@@ -5,12 +5,14 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/VeterinarioMenuFragment">
 
+    <!-- Veterinario Menu Fragment -->
     <fragment
         android:id="@+id/VeterinarioMenuFragment"
         android:name="com.example.petcare.VeterinarioMenuFragment"
         android:label="Veterinario Menu"
         tools:layout="@layout/fragment_veterinario_menu">
 
+        <!-- Acciones desde el menú del veterinario -->
         <action
             android:id="@+id/action_veterinarioMenu_to_registroClienteParte1"
             app:destination="@id/RegistroClienteParte1Fragment" />
@@ -25,7 +27,7 @@
 
         <action
             android:id="@+id/action_veterinarioMenu_to_medicamentosFragment"
-            app:destination="@id/MedicamentosFragment" />
+            app:destination="@id/InventarioMedicamentosFragment" />
 
         <action
             android:id="@+id/action_veterinarioMenu_to_herramientasFragment"
@@ -39,9 +41,21 @@
             android:id="@+id/action_veterinarioMenu_to_otrosProductosFragment"
             app:destination="@id/OtrosProductosFragment" />
 
+        <!-- Acciones para Veterinaria -->
+        <action
+            android:id="@+id/action_veterinarioMenu_to_opcionAgregarVeterinaria"
+            app:destination="@id/OpcionAgregarVeterinariaFragment" />
+
+        <action
+            android:id="@+id/action_veterinarioMenu_to_opcionModificarVeterinaria"
+            app:destination="@id/OpcionModificarVeterinariaFragment" />
+
+        <action
+            android:id="@+id/action_veterinarioMenu_to_opcionEliminarVeterinaria"
+            app:destination="@id/OpcionEliminarVeterinariaFragment" />
     </fragment>
 
-    <!-- Define aquí los demás fragmentos -->
+    <!-- Define los demás fragmentos -->
     <fragment
         android:id="@+id/RegistroClienteParte1Fragment"
         android:name="com.example.petcare.RegistroClienteparte1Fragment"
@@ -57,23 +71,44 @@
         android:name="com.example.petcare.OpcionLLamadoClienteFragment"
         android:label="Llamado Cliente" />
 
+    <!-- Medicamentos -->
     <fragment
-        android:id="@+id/MedicamentosFragment"
+        android:id="@+id/InventarioMedicamentosFragment"
         android:name="com.example.petcare.InventarioMedicamentosFragment"
-        android:label="Medicamentos" />
+        android:label="Inventario de Medicamentos" />
 
+    <!-- Herramientas -->
     <fragment
         android:id="@+id/HerramientasFragment"
         android:name="com.example.petcare.InventarioHerramientasFragment"
-        android:label="Herramientas" />
+        android:label="Inventario de Herramientas" />
 
+    <!-- Comida de Mascotas -->
     <fragment
         android:id="@+id/ComidaMascotasFragment"
         android:name="com.example.petcare.InvetarioComidaFragment"
         android:label="Comida Mascotas" />
 
+    <!-- Otros productos -->
     <fragment
         android:id="@+id/OtrosProductosFragment"
         android:name="com.example.petcare.InventarioOtrosProductosFragment"
         android:label="Otros Productos" />
+
+    <!-- Fragmentos relacionados con Veterinaria -->
+    <fragment
+        android:id="@+id/OpcionAgregarVeterinariaFragment"
+        android:name="com.example.petcare.OpcionAgregarVeterinariaFragment"
+        android:label="Agregar Veterinaria" />
+
+    <fragment
+        android:id="@+id/OpcionModificarVeterinariaFragment"
+        android:name="com.example.petcare.OpcionModificarVeterinariaFragment"
+        android:label="Modificar Veterinaria" />
+
+    <fragment
+        android:id="@+id/OpcionEliminarVeterinariaFragment"
+        android:name="com.example.petcare.OpcionEliminarVeterinariaFragment"
+        android:label="Eliminar Veterinaria" />
+
 </navigation>

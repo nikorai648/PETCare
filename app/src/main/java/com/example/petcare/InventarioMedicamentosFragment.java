@@ -1,6 +1,5 @@
 package com.example.petcare;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +12,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 public class InventarioMedicamentosFragment extends Fragment {
 
@@ -34,22 +35,32 @@ public class InventarioMedicamentosFragment extends Fragment {
         Button btnModificar = view.findViewById(R.id.btnModificar);
         Button btnEliminar = view.findViewById(R.id.btnEliminar);
 
-        // Acciones de los botones
+        // Obtener el FragmentManager
+        FragmentManager fragmentManager = getParentFragmentManager();
+
+        // Acciones de los botones para navegar entre fragmentos
         btnAgregar.setOnClickListener(v -> {
-            Intent intent = new Intent(getActivity(), OpcionAgregarVeterinariaActivity.class);
-            startActivity(intent);
+            FragmentTransaction transaction = fragmentManager.beginTransaction();
+            transaction.replace(R.id.fragment_container, new OpcionAgregarVeterinariaFragment());
+            transaction.addToBackStack(null);  // Agregar la transacción a la pila para poder volver
+            transaction.commit();
         });
 
         btnModificar.setOnClickListener(v -> {
-            Intent intent = new Intent(getActivity(), OpcionModificarVeterinariaActivity.class);
-            startActivity(intent);
+            FragmentTransaction transaction = fragmentManager.beginTransaction();
+            transaction.replace(R.id.fragment_container, new OpcionModificarVeterinariaFragment());
+            transaction.addToBackStack(null);
+            transaction.commit();
         });
 
         btnEliminar.setOnClickListener(v -> {
-            Intent intent = new Intent(getActivity(), OpcionEliminarVeterinariaActivity.class);
-            startActivity(intent);
+            FragmentTransaction transaction = fragmentManager.beginTransaction();
+            transaction.replace(R.id.fragment_container, new OpcionEliminarVeterinariaFragment());
+            transaction.addToBackStack(null);
+            transaction.commit();
         });
 
         return view;
     }
 }
+

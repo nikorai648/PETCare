@@ -1,16 +1,13 @@
 package com.example.petcare;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 public class InventarioOtrosProductosFragment extends Fragment {
 
@@ -19,34 +16,35 @@ public class InventarioOtrosProductosFragment extends Fragment {
         // Inflar el layout del fragmento
         View view = inflater.inflate(R.layout.fragment_inventario_otros_productos, container, false);
 
-        // Aplicar el listener para el manejo de WindowInsets
-        ViewCompat.setOnApplyWindowInsetsListener(view.findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
-
         // Inicializar los botones
         Button btnAgregar = view.findViewById(R.id.btnAgregar);
         Button btnModificar = view.findViewById(R.id.btnModificar);
         Button btnEliminar = view.findViewById(R.id.btnEliminar);
 
-        // Configurar las acciones de los botones
+        // Configurar las acciones de los botones para navegar a los fragmentos
         btnAgregar.setOnClickListener(v -> {
-            Intent intent = new Intent(getActivity(), OpcionAgregarVeterinariaActivity.class);
-            startActivity(intent);
+            // Reemplazar con OpcionAgregarVeterinariaFragment
+            replaceFragment(new OpcionAgregarVeterinariaFragment());
         });
 
         btnModificar.setOnClickListener(v -> {
-            Intent intent = new Intent(getActivity(), OpcionModificarVeterinariaActivity.class);
-            startActivity(intent);
+            // Reemplazar con OpcionModificarVeterinariaFragment
+            replaceFragment(new OpcionModificarVeterinariaFragment());
         });
 
         btnEliminar.setOnClickListener(v -> {
-            Intent intent = new Intent(getActivity(), OpcionEliminarVeterinariaActivity.class);
-            startActivity(intent);
+            // Reemplazar con OpcionEliminarVeterinariaFragment
+            replaceFragment(new OpcionEliminarVeterinariaFragment());
         });
 
         return view;
+    }
+
+    // Método para reemplazar el fragmento actual
+    private void replaceFragment(Fragment fragment) {
+        FragmentTransaction transaction = getParentFragmentManager().beginTransaction();
+        transaction.replace(R.id.fragment_container, fragment); // 'fragment_container' es el id del contenedor de fragmentos en tu layout principal
+        transaction.addToBackStack(null); // Permitir volver atrás al fragmento anterior
+        transaction.commit();
     }
 }

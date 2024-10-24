@@ -1,6 +1,5 @@
 package com.example.petcare;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +10,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 public class InvetarioComidaFragment extends Fragment {
 
@@ -33,18 +33,30 @@ public class InvetarioComidaFragment extends Fragment {
 
         // Configurar los eventos de los botones
         btnAgregar.setOnClickListener(v -> {
-            Intent intent = new Intent(getActivity(), OpcionAgregarVeterinariaActivity.class);
-            startActivity(intent);
+            // Navegar al fragmento OpcionAgregarVeterinariaFragment
+            OpcionAgregarVeterinariaFragment fragmentAgregar = new OpcionAgregarVeterinariaFragment();
+            FragmentTransaction transaction = getParentFragmentManager().beginTransaction();
+            transaction.replace(R.id.fragment_container, fragmentAgregar); // Asegúrate de usar el id correcto del contenedor de fragmentos
+            transaction.addToBackStack(null);
+            transaction.commit();
         });
 
         btnModificar.setOnClickListener(v -> {
-            Intent intent = new Intent(getActivity(), OpcionModificarVeterinariaActivity.class);
-            startActivity(intent);
+            // Navegar al fragmento OpcionModificarVeterinariaFragment
+            OpcionModificarVeterinariaFragment fragmentModificar = new OpcionModificarVeterinariaFragment();
+            FragmentTransaction transaction = getParentFragmentManager().beginTransaction();
+            transaction.replace(R.id.fragment_container, fragmentModificar); // Asegúrate de usar el id correcto del contenedor de fragmentos
+            transaction.addToBackStack(null);
+            transaction.commit();
         });
 
         btnEliminar.setOnClickListener(v -> {
-            Intent intent = new Intent(getActivity(), OpcionEliminarVeterinariaActivity.class);
-            startActivity(intent);
+            // Navegar al fragmento OpcionEliminarVeterinariaFragment
+            OpcionEliminarVeterinariaFragment fragmentEliminar = new OpcionEliminarVeterinariaFragment();
+            FragmentTransaction transaction = getParentFragmentManager().beginTransaction();
+            transaction.replace(R.id.fragment_container, fragmentEliminar); // Asegúrate de usar el id correcto del contenedor de fragmentos
+            transaction.addToBackStack(null);
+            transaction.commit();
         });
 
         return view;
