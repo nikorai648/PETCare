@@ -3,47 +3,77 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/veterinarioMenuFragment">
+    app:startDestination="@id/VeterinarioMenuFragment">
 
-    <!-- Fragment principal del menú de veterinario -->
     <fragment
-        android:id="@+id/veterinarioMenuFragment"
+        android:id="@+id/VeterinarioMenuFragment"
         android:name="com.example.petcare.VeterinarioMenuFragment"
-        android:label="@string/veterinario_menu"
-        tools:layout="@layout/fragment_veterinario_menu" />
+        android:label="Veterinario Menu"
+        tools:layout="@layout/fragment_veterinario_menu">
 
-    <!-- Fragment para el registro de clientes (Parte 1) -->
+        <action
+            android:id="@+id/action_veterinarioMenu_to_registroClienteParte1"
+            app:destination="@id/RegistroClienteParte1Fragment" />
+
+        <action
+            android:id="@+id/action_veterinarioMenu_to_registroClienteParte2"
+            app:destination="@id/RegistroClienteParte2Fragment" />
+
+        <action
+            android:id="@+id/action_veterinarioMenu_to_opcionLlamadoCliente"
+            app:destination="@id/OpcionLlamadoClienteFragment" />
+
+        <action
+            android:id="@+id/action_veterinarioMenu_to_medicamentosFragment"
+            app:destination="@id/MedicamentosFragment" />
+
+        <action
+            android:id="@+id/action_veterinarioMenu_to_herramientasFragment"
+            app:destination="@id/HerramientasFragment" />
+
+        <action
+            android:id="@+id/action_veterinarioMenu_to_comidaMascotasFragment"
+            app:destination="@id/ComidaMascotasFragment" />
+
+        <action
+            android:id="@+id/action_veterinarioMenu_to_otrosProductosFragment"
+            app:destination="@id/OtrosProductosFragment" />
+
+    </fragment>
+
+    <!-- Define aquí los demás fragmentos -->
     <fragment
-        android:id="@+id/registroClienteParte1Fragment"
+        android:id="@+id/RegistroClienteParte1Fragment"
         android:name="com.example.petcare.RegistroClienteparte1Fragment"
-        android:label="Registro de Clientes"
-        tools:layout="@layout/fragment_registro_clienteparte1" />
+        android:label="Registro Cliente Parte 1" />
 
-    <!-- Fragment para el estado actual de mascotas -->
     <fragment
-        android:id="@+id/registroClienteParte2Fragment"
+        android:id="@+id/RegistroClienteParte2Fragment"
         android:name="com.example.petcare.RegistroClienteparte2Fragment"
-        android:label="Estado Actual de Mascotas"
-        tools:layout="@layout/fragment_registro_clienteparte2" />
+        android:label="Registro Cliente Parte 2" />
 
-    <!-- Fragment para la opción de llamado a clientes -->
     <fragment
-        android:id="@+id/opcionLlamadoClienteFragment"
+        android:id="@+id/OpcionLlamadoClienteFragment"
         android:name="com.example.petcare.OpcionLLamadoClienteFragment"
-        android:label="Llamado a Clientes"
-        tools:layout="@layout/fragment_opcion_llamado_cliente" />
+        android:label="Llamado Cliente" />
 
-    <!-- Acciones para la navegación -->
-    <action
-        android:id="@+id/action_veterinarioMenu_to_registroClienteParte1"
-        app:destination="@id/registroClienteParte1Fragment" />
+    <fragment
+        android:id="@+id/MedicamentosFragment"
+        android:name="com.example.petcare.InventarioMedicamentosFragment"
+        android:label="Medicamentos" />
 
-    <action
-        android:id="@+id/action_veterinarioMenu_to_registroClienteParte2"
-        app:destination="@id/registroClienteParte2Fragment" />
+    <fragment
+        android:id="@+id/HerramientasFragment"
+        android:name="com.example.petcare.InventarioHerramientasFragment"
+        android:label="Herramientas" />
 
-    <action
-        android:id="@+id/action_veterinarioMenu_to_opcionLlamadoCliente"
-        app:destination="@id/opcionLlamadoClienteFragment" />
+    <fragment
+        android:id="@+id/ComidaMascotasFragment"
+        android:name="com.example.petcare.InvetarioComidaFragment"
+        android:label="Comida Mascotas" />
 
+    <fragment
+        android:id="@+id/OtrosProductosFragment"
+        android:name="com.example.petcare.InventarioOtrosProductosFragment"
+        android:label="Otros Productos" />
 </navigation>
