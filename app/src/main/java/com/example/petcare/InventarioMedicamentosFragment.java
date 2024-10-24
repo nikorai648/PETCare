@@ -1,11 +1,5 @@
 package com.example.petcare;
 
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.graphics.Insets;
@@ -14,6 +8,14 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
 
 public class InventarioMedicamentosFragment extends Fragment {
 
@@ -53,11 +55,10 @@ public class InventarioMedicamentosFragment extends Fragment {
             transaction.commit();
         });
 
+        // Usar NavController para la navegación del botón Eliminar
         btnEliminar.setOnClickListener(v -> {
-            FragmentTransaction transaction = fragmentManager.beginTransaction();
-            transaction.replace(R.id.fragment_container, new OpcionEliminarVeterinariaFragment());
-            transaction.addToBackStack(null);
-            transaction.commit();
+            NavController navController = Navigation.findNavController(v);
+            navController.navigate(R.id.action_medicamentos_to_confirmacion_eliminacion);
         });
 
         return view;
