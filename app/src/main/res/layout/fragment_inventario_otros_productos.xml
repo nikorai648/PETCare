@@ -39,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Producto"
+                android:text="@string/other_products"
                 android:textStyle="bold"
                 android:gravity="center" />
 
@@ -47,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Cantidad"
+                android:text="@string/state"
                 android:textStyle="bold"
                 android:gravity="center" />
 
@@ -55,7 +55,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Estado"
+                android:text="@string/quantity"
                 android:textStyle="bold"
                 android:gravity="center" />
         </TableRow>
