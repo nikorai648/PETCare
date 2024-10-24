@@ -49,7 +49,7 @@
     <string name="close_menu_lateral" >Cerrar menú</string>
     <string name="PETCare_title">PETCare</string>
     <string name="PETCare_options">Opciones de Aplicación para Veterinarios</string>
-    <string name="btn_record_clients">Ver Registro de Clientes</string>
+    <string name="btn_record_clients_fragment">Ver Registro de Clientes</string>
     <string name="btn_state_pets">Estados Actuales de Mascotas</string>
     <string name="btn_inventory_vet">Ver Inventario de Veterinaria</string>
     <string name="btn_call_clients">Llamado para Clientes</string>
