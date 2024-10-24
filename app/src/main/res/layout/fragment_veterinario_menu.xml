@@ -11,10 +11,11 @@
     <!-- Botón para registrar clientes -->
     <Button
         android:id="@+id/button_record_clients"
-        android:layout_width="match_parent"
+        android:layout_width="264dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@color/white"
+        android:layout_gravity="center_horizontal"
         android:text="@string/btn_record_clients_fragment"
         android:textColor="@color/black"
         android:visibility="visible" />
@@ -22,22 +23,24 @@
     <!-- Botón para estado de mascotas -->
     <Button
         android:id="@+id/button_state_pets"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="@color/white"
-        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
         android:text="@string/btn_state_pets"
-        android:layout_marginBottom="16dp"/>
+        android:textColor="@color/black" />
 
     <!-- Botón para inventario -->
     <Button
         android:id="@+id/button_inventory_vet"
-        android:layout_width="match_parent"
+        android:layout_width="242dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="@color/white"
-        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
         android:text="@string/btn_inventory_vet"
-        android:layout_marginBottom="16dp"/>
+        android:textColor="@color/black" />
 
     <!-- Submenú de inventario -->
     <TextView
@@ -96,10 +99,11 @@
     <!-- Botón para llamar a clientes -->
     <Button
         android:id="@+id/button_call_clients"
-        android:layout_width="match_parent"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
+        android:layout_width="255dp"
         android:layout_height="wrap_content"
-        android:text="@string/btn_call_clients"/>
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btn_call_clients"
+        android:textColor="@color/black" />
 
 </LinearLayout>
