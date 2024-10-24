@@ -15,7 +15,7 @@ public class OpcionLLamadoClienteActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_opcion_llamado_cliente);
+        setContentView(R.layout.fragment_opcion_llamado_cliente);
 
         // Referencia al ListView
         listViewClientes = findViewById(R.id.listViewClientes);
