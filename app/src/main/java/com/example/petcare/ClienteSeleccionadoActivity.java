@@ -1,6 +1,5 @@
 package com.example.petcare;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.fragment.app.FragmentTransaction;
 
 public class ClienteSeleccionadoActivity extends AppCompatActivity {
 
@@ -43,24 +43,22 @@ public class ClienteSeleccionadoActivity extends AppCompatActivity {
         // Boton para enviar el formulario
         Button btnEnviar = findViewById(R.id.button);
 
-
         btnEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Valida si los campos están llenos y las contraseñas coinciden
                 if (validarFormulario()) {
-                    // manda a ClienteMenuActivity si el formulario está completo
-                    Intent intent = new Intent(ClienteSeleccionadoActivity.this, ClienteMenuActivity.class);
-                    startActivity(intent);
+                    // Si el formulario está completo, cargar ClienteMenuFragment
+                    cargarClienteMenuFragment();
                 } else {
-                    // Muestra mensaje de error si algun campo está vacío
+                    // Muestra mensaje de error si algún campo está vacío
                     Toast.makeText(ClienteSeleccionadoActivity.this, "Por favor, complete todos los campos", Toast.LENGTH_SHORT).show();
                 }
             }
         });
     }
 
-    // Metodo para validar si los campos están llenos y las contraseñas coinciden
+    // Método para validar si los campos están llenos y las contraseñas coinciden
     private boolean validarFormulario() {
         String nombre = editNombre.getText().toString().trim();
         String apellido = editApellido.getText().toString().trim();
@@ -82,5 +80,14 @@ public class ClienteSeleccionadoActivity extends AppCompatActivity {
         }
 
         return true;
+    }
+
+    // Método para cargar el ClienteMenuFragment
+    private void cargarClienteMenuFragment() {
+        ClienteMenuFragment clienteMenuFragment = new ClienteMenuFragment();
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.fragment_container, clienteMenuFragment);
+        transaction.addToBackStack(null); // Permite volver al formulario si se necesita
+        transaction.commit();
     }
 }
