@@ -159,4 +159,26 @@
         android:name="com.example.petcare.OpcionEliminarVeterinariaFragment"
         android:label="Eliminar Veterinaria" />
 
+    <fragment
+        android:id="@+id/ConfirmacionEliminacionProductoFragment"
+        android:name="com.example.petcare.CofirmacionEliminacionProductoFragment"
+        android:label="Confirmación de Eliminación" />
+
+    <!-- Acciones para navegar desde cada fragmento de inventario a ConfirmacionEliminacionProductoFragment -->
+    <action
+        android:id="@+id/action_medicamentos_to_confirmacion_eliminacion"
+        app:destination="@id/ConfirmacionEliminacionProductoFragment" />
+
+    <action
+        android:id="@+id/action_herramientas_to_confirmacion_eliminacion"
+        app:destination="@id/ConfirmacionEliminacionProductoFragment" />
+
+    <action
+        android:id="@+id/action_comidaMascotas_to_confirmacion_eliminacion"
+        app:destination="@id/ConfirmacionEliminacionProductoFragment" />
+
+    <action
+        android:id="@+id/action_otrosProductos_to_confirmacion_eliminacion"
+        app:destination="@id/ConfirmacionEliminacionProductoFragment" />
+
 </navigation>
