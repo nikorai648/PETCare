@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
+        android:visibility="gone"
         android:text="Registrar Clientes"
         android:layout_marginBottom="16dp"/>
 
