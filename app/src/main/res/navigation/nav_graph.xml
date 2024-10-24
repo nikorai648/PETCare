@@ -75,25 +75,73 @@
     <fragment
         android:id="@+id/InventarioMedicamentosFragment"
         android:name="com.example.petcare.InventarioMedicamentosFragment"
-        android:label="Inventario de Medicamentos" />
+        android:label="Inventario de Medicamentos" >
+
+        <!-- Agregar, Modificar y Eliminar -->
+        <action
+            android:id="@+id/action_medicamentos_to_agregar"
+            app:destination="@id/OpcionAgregarVeterinariaFragment" />
+        <action
+            android:id="@+id/action_medicamentos_to_modificar"
+            app:destination="@id/OpcionModificarVeterinariaFragment" />
+        <action
+            android:id="@+id/action_medicamentos_to_eliminar"
+            app:destination="@id/OpcionEliminarVeterinariaFragment" />
+    </fragment>
 
     <!-- Herramientas -->
     <fragment
         android:id="@+id/HerramientasFragment"
         android:name="com.example.petcare.InventarioHerramientasFragment"
-        android:label="Inventario de Herramientas" />
+        android:label="Inventario de Herramientas" >
+
+        <!-- Agregar, Modificar y Eliminar -->
+        <action
+            android:id="@+id/action_herramientas_to_agregar"
+            app:destination="@id/OpcionAgregarVeterinariaFragment" />
+        <action
+            android:id="@+id/action_herramientas_to_modificar"
+            app:destination="@id/OpcionModificarVeterinariaFragment" />
+        <action
+            android:id="@+id/action_herramientas_to_eliminar"
+            app:destination="@id/OpcionEliminarVeterinariaFragment" />
+    </fragment>
 
     <!-- Comida de Mascotas -->
     <fragment
         android:id="@+id/ComidaMascotasFragment"
         android:name="com.example.petcare.InvetarioComidaFragment"
-        android:label="Comida Mascotas" />
+        android:label="Comida Mascotas" >
+
+        <!-- Agregar, Modificar y Eliminar -->
+        <action
+            android:id="@+id/action_comida_to_agregar"
+            app:destination="@id/OpcionAgregarVeterinariaFragment" />
+        <action
+            android:id="@+id/action_comida_to_modificar"
+            app:destination="@id/OpcionModificarVeterinariaFragment" />
+        <action
+            android:id="@+id/action_comida_to_eliminar"
+            app:destination="@id/OpcionEliminarVeterinariaFragment" />
+    </fragment>
 
     <!-- Otros productos -->
     <fragment
         android:id="@+id/OtrosProductosFragment"
         android:name="com.example.petcare.InventarioOtrosProductosFragment"
-        android:label="Otros Productos" />
+        android:label="Otros Productos" >
+
+        <!-- Agregar, Modificar y Eliminar -->
+        <action
+            android:id="@+id/action_otros_to_agregar"
+            app:destination="@id/OpcionAgregarVeterinariaFragment" />
+        <action
+            android:id="@+id/action_otros_to_modificar"
+            app:destination="@id/OpcionModificarVeterinariaFragment" />
+        <action
+            android:id="@+id/action_otros_to_eliminar"
+            app:destination="@id/OpcionEliminarVeterinariaFragment" />
+    </fragment>
 
     <!-- Fragmentos relacionados con Veterinaria -->
     <fragment
