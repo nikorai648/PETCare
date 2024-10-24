@@ -303,5 +303,6 @@
     <string name="estados_actuales_de_mascotas">Estados Actuales de Mascotas</string>
     <string name="opciones_del_cliente">Opciones del Cliente</string>
     <string name="petcare">PETCare</string>
+    <string name="veterinario_menu" />
 
 </resources>

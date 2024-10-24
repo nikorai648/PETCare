@@ -3,28 +3,47 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/veterinarioMenuFragment">
 
+    <!-- Fragment principal del menú de veterinario -->
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.example.petcare.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        android:id="@+id/veterinarioMenuFragment"
+        android:name="com.example.petcare.VeterinarioMenuFragment"
+        android:label="@string/veterinario_menu"
+        tools:layout="@layout/fragment_veterinario_menu" />
 
-        <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
-    </fragment>
-
+    <!-- Fragment para el registro de clientes (Parte 1) -->
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.petcare.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
+        android:id="@+id/registroClienteParte1Fragment"
+        android:name="com.example.petcare.RegistroClienteparte1Fragment"
+        android:label="Registro de Clientes"
+        tools:layout="@layout/fragment_registro_clienteparte1" />
 
-        <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
-    </fragment>
+    <!-- Fragment para el estado actual de mascotas -->
+    <fragment
+        android:id="@+id/registroClienteParte2Fragment"
+        android:name="com.example.petcare.RegistroClienteparte2Fragment"
+        android:label="Estado Actual de Mascotas"
+        tools:layout="@layout/fragment_registro_clienteparte2" />
+
+    <!-- Fragment para la opción de llamado a clientes -->
+    <fragment
+        android:id="@+id/opcionLlamadoClienteFragment"
+        android:name="com.example.petcare.OpcionLLamadoClienteFragment"
+        android:label="Llamado a Clientes"
+        tools:layout="@layout/fragment_opcion_llamado_cliente" />
+
+    <!-- Acciones para la navegación -->
+    <action
+        android:id="@+id/action_veterinarioMenu_to_registroClienteParte1"
+        app:destination="@id/registroClienteParte1Fragment" />
+
+    <action
+        android:id="@+id/action_veterinarioMenu_to_registroClienteParte2"
+        app:destination="@id/registroClienteParte2Fragment" />
+
+    <action
+        android:id="@+id/action_veterinarioMenu_to_opcionLlamadoCliente"
+        app:destination="@id/opcionLlamadoClienteFragment" />
 
 </navigation>
