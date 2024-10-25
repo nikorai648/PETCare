@@ -1,7 +1,6 @@
-// Aplicar los plugins correctos
 plugins {
     id("com.android.application")
-    id("com.google.gms.google-services") // Asegúrate de que esta línea esté presente para Firebase
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -14,7 +13,6 @@ android {
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -39,17 +37,13 @@ android {
 }
 
 dependencies {
-    implementation("androidx.appcompat:appcompat:1.6.1") // Versión específica de appcompat
-    implementation("com.google.android.material:material:1.8.0") // Versión específica de material
-    implementation("androidx.activity:activity-ktx:1.7.2") // Versión específica de activity-ktx
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4") // Versión específica de constraintlayout
-    implementation("androidx.navigation:navigation-fragment-ktx:2.5.3") // Versión específica de navigation-fragment
-    implementation("androidx.navigation:navigation-ui-ktx:2.5.3") // Versión específica de navigation-ui
-
-    // BoM de Firebase para gestionar versiones automáticamente
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.8.0")
+    implementation("androidx.activity:activity-ktx:1.7.2")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.navigation:navigation-fragment-ktx:2.5.3")
+    implementation("androidx.navigation:navigation-ui-ktx:2.5.3")
     implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
-
-    // Dependencias de Firebase
     implementation("com.google.firebase:firebase-database")
     implementation("com.google.firebase:firebase-auth")
 }
