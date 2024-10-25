@@ -1,6 +1,7 @@
 plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.google.services) // Asegúrate de que esto esté aquí
+    id("com.android.application")
+    // Añade el plugin de servicios de Google
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -13,6 +14,7 @@ android {
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
+
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -25,10 +27,12 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
     buildFeatures {
         viewBinding = true
     }
@@ -41,12 +45,12 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.ext.junit)
-    androidTestImplementation(libs.espresso.core)
 
-    // Dependencias de Firebase
-    implementation(platform(libs.firebaseBom)) // Usa el BOM de Firebase
-    implementation(libs.firebase.database)
-    implementation(libs.firebase.auth)
+    // Importa el BoM de Firebase
+    implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
+
+    // Añade las dependencias de los productos de Firebase que deseas usar
+    // Ejemplo:
+    // implementation("com.google.firebase:firebase-database")
+    // implementation("com.google.firebase:firebase-auth")
 }
