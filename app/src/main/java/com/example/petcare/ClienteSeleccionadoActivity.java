@@ -4,9 +4,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -21,26 +26,25 @@ public class ClienteSeleccionadoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_cliente_seleccionado);
 
         // Ajustar ventanas para el modo Edge-to-Edge
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
+            return WindowInsetsCompat.CONSUMED;
         });
 
         // Inicialización de los campos del formulario
-        editNombre = findViewById(R.id.editTextText3);         // Nombre
-        editApellido = findViewById(R.id.editTextText4);       // Apellido
-        editTelefono = findViewById(R.id.editTextPhone);       // Teléfono
-        editRut = findViewById(R.id.editTextText5);            // RUT
-        editContrasena = findViewById(R.id.editTextTextPassword);  // Contraseña
-        editConfirmContrasena = findViewById(R.id.editTextTextPassword2);  // Confirmar contraseña
-        editNombresMascotas = findViewById(R.id.editTextText6);  // Nombres de las mascotas
+        editNombre = findViewById(R.id.editTextText3);
+        editApellido = findViewById(R.id.editTextText4);
+        editTelefono = findViewById(R.id.editTextPhone);
+        editRut = findViewById(R.id.editTextText5);
+        editContrasena = findViewById(R.id.editTextTextPassword);
+        editConfirmContrasena = findViewById(R.id.editTextTextPassword2);
+        editNombresMascotas = findViewById(R.id.editTextText6);
 
-        // Boton para enviar el formulario
+        // Botón para enviar el formulario
         Button btnEnviar = findViewById(R.id.button);
 
         btnEnviar.setOnClickListener(new View.OnClickListener() {

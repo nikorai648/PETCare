@@ -39,17 +39,17 @@ android {
 }
 
 dependencies {
-    implementation(libs.appcompat) // Ajuste de dependencia appcompat
-    implementation(libs.material) // Ajuste de dependencia material
-    implementation(libs.activity.v193) // Ajuste de dependencia activity
-    implementation(libs.constraintlayout) // Ajuste de dependencia constraintlayout
-    implementation(libs.navigation.fragment.ktx) // Ajuste de dependencia navigation.fragment
-    implementation(libs.navigation.ui.ktx) // Ajuste de dependencia navigation.ui
+    implementation("androidx.appcompat:appcompat:1.6.1") // Versión específica de appcompat
+    implementation("com.google.android.material:material:1.8.0") // Versión específica de material
+    implementation("androidx.activity:activity-ktx:1.7.2") // Versión específica de activity-ktx
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4") // Versión específica de constraintlayout
+    implementation("androidx.navigation:navigation-fragment-ktx:2.5.3") // Versión específica de navigation-fragment
+    implementation("androidx.navigation:navigation-ui-ktx:2.5.3") // Versión específica de navigation-ui
 
-    // Importar el Firebase BoM
-    implementation(libs.firebase.bom)
+    // BoM de Firebase para gestionar versiones automáticamente
+    implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
 
-    // Añadir las dependencias de Firebase que quieras usar
-    implementation(libs.google.firebase.database)
-    implementation(libs.google.firebase.auth)
+    // Dependencias de Firebase
+    implementation("com.google.firebase:firebase-database")
+    implementation("com.google.firebase:firebase-auth")
 }
