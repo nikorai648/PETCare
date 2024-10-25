@@ -1,9 +1,13 @@
-// build.gradle.kts (Project: PETCare)
-
-plugins {
-    // No necesitas importar com.android.builder.files.classpathToRelativeFileSet aquí.
-    alias(libs.plugins.android.application) apply false
-    alias(libs.plugins.google.services) apply false
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.1.0")
+        classpath("com.google.gms:google-services:4.3.15") // Google services plugin
+    }
 }
 
 allprojects {
@@ -11,4 +15,9 @@ allprojects {
         google()
         mavenCentral()
     }
+}
+
+// Definir la tarea clean correctamente
+tasks.register("clean", Delete::class) {
+    delete(rootProject.buildDir)
 }
