@@ -1,6 +1,5 @@
 package com.example.petcare;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -8,7 +7,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -18,13 +16,12 @@ public class RegistroClienteparte1Activity extends AppCompatActivity {
 
     private String[] clients = {"Cliente 1", "Cliente 2", "Cliente 3", "Cliente 4"};
 
-    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.fragment_registro_clienteparte1);
 
+        // Aplicar márgenes de ventana para el diseño
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -40,7 +37,7 @@ public class RegistroClienteparte1Activity extends AppCompatActivity {
         listViewClients.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                // Dependiendo de la posición, puedes hacer algo diferente
+                // Manda a la actividad RegistroClienteparte2Activity
                 Intent intent = new Intent(RegistroClienteparte1Activity.this, RegistroClienteparte2Activity.class);
                 startActivity(intent);
             }
