@@ -48,8 +48,12 @@ dependencies {
     implementation("com.google.firebase:firebase-auth")
     implementation(libs.monitor)
     implementation(libs.firebase.firestore)
+    implementation(libs.ext.junit)
     testImplementation(libs.junit.junit)
     testImplementation(libs.junit.junit)
     testImplementation(libs.junit.jupiter)
     testImplementation(libs.junit.junit)
+    androidTestImplementation(libs.testng)
+    androidTestImplementation(libs.testng)
+    androidTestImplementation(libs.junit.junit)
 }

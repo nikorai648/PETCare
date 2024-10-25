@@ -2,15 +2,14 @@ package com.example.petcare;
 
 import android.content.Context;
 
-import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+import androidx.test.platform.app.InstrumentationRegistry;
+import androidx.test..junit.runners.AndroidJUnit4;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 import org.junit.runner.RunWith;
 
 import static org.junit.Assert.assertEquals;
-
-import com.google.firebase.firestore.util.Assert;
 
 /**
  * Instrumented test, which will execute on an Android device.
