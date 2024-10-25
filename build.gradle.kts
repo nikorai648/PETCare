@@ -1,7 +1,6 @@
-// build.gradle.kts (Project: PETCare)
 plugins {
     alias(libs.plugins.android.application) apply false
-    alias(libs.plugins.google.services.jon) apply false
+    alias(libs.plugins.google.services) apply false
 }
 
 allprojects {

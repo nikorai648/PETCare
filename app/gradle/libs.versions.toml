@@ -1,0 +1,15 @@
+[versions]
+androidGradlePlugin = "8.1.4"
+googleServices = "4.4.2"
+firebaseBom = "32.0.0"
+
+[libraries]
+android-application = { module = "com.android.tools.build:gradle", version.ref = "androidGradlePlugin" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+appcompat = { module = "androidx.appcompat:appcompat:1.6.1" }
+material = { module = "com.google.android.material:material:1.8.0" }
+activity = { module = "androidx.activity:activity-ktx:1.6.1" }
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout:2.1.4" }
+navigation = { module = "androidx.navigation:navigation-fragment-ktx:2.6.0" }
+junit = { module = "junit:junit:4.13.2" }
+espresso = { module = "androidx.test.espresso:espresso-core:3.5.1" }
