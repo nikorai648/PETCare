@@ -1,7 +1,6 @@
-plugins {
+lugins {
     id("com.android.application")
-    // Añade el plugin de servicios de Google
-    id("com.google.gms.google-services")
+    id("com.google.gms.google-services") // Asegúrate de que esta línea esté presente
 }
 
 android {
@@ -46,11 +45,18 @@ dependencies {
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
 
-    // Importa el BoM de Firebase
+    // Import the Firebase BoM
     implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
 
-    // Añade las dependencias de los productos de Firebase que deseas usar
-    // Ejemplo:
-    // implementation("com.google.firebase:firebase-database")
-    // implementation("com.google.firebase:firebase-auth")
+    // TODO: Add the dependencies for Firebase products you want to use
+    implementation("com.google.firebase:firebase-database")
+    implementation("com.google.firebase:firebase-auth")
+}
+
+fun lugins(function: () -> Unit) {
+
+}
+
+fun id(s: String) {
+
 }
