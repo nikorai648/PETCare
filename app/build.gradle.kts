@@ -46,4 +46,10 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
     implementation("com.google.firebase:firebase-database")
     implementation("com.google.firebase:firebase-auth")
+    implementation(libs.monitor)
+    implementation(libs.firebase.firestore)
+    testImplementation(libs.junit.junit)
+    testImplementation(libs.junit.junit)
+    testImplementation(libs.junit.jupiter)
+    testImplementation(libs.junit.junit)
 }

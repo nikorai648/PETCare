@@ -13,6 +13,10 @@ navigationFragment = "2.6.0"
 navigationFragmentKtx = "2.8.3"
 navigationUi = "2.6.0"
 navigationUiKtx = "2.7.0"
+junitJunit = "4.12"
+junitJupiter = "5.8.1"
+monitor = "1.7.2"
+firebaseFirestore = "25.1.1"
 
 [libraries]
 activity-v193 = { module = "androidx.activity:activity", version.ref = "activityVersion" }
@@ -32,6 +36,10 @@ navigation-fragment = { group = "androidx.navigation", name = "navigation-fragme
 navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
 navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUi" }
 navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationUiKtx" }
+junit-junit = { group = "junit", name = "junit", version.ref = "junitJunit" }
+junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.ref = "junitJupiter" }
+monitor = { group = "androidx.test", name = "monitor", version.ref = "monitor" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

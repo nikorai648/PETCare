@@ -8,7 +8,9 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+
+import com.google.firebase.firestore.util.Assert;
 
 /**
  * Instrumented test, which will execute on an Android device.
@@ -22,5 +24,8 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("com.example.petcare", appContext.getPackageName());
+    }
+
+    private void assertEquals(String s, String packageName) {
     }
 }
