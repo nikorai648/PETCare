@@ -63,7 +63,7 @@
 
         <action
             android:id="@+id/action_clienteMenu_to_opcionOrdenarVeterinaria"
-            app:destination="@id/action_clienteMenu_to_opcionOrdenarVeterinaria" />
+            app:destination="@id/OpcionOrdenarVeterinariaFragment" />
     </fragment>
 
     <!-- Fragmentos definidos sin LoginActivity -->
